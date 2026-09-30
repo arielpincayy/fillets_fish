@@ -1,0 +1,1170 @@
+[
+  {
+    "doi": "10.3390/s21041373",
+    "title": "Sensing Technology for Fish Freshness and Safety: A Review",
+    "year": 2021,
+    "publication_date": "2021-02-16",
+    "journal": "Sensors",
+    "authors": [
+      "Leonardo Franceschelli",
+      "Annachiara Berardinelli",
+      "Sihem Dabbou",
+      "Luigi Ragni",
+      "Marco Tartagni"
+    ],
+    "abstract": "Standard analytical methods for fish freshness assessment are based on the measurement of chemical and physical attributes related to fish appearance, color, meat elasticity or texture, odor, and taste. These methods have plenty of disadvantages, such as being destructive, expensive, and time consuming. All these techniques require highly skilled operators. In the last decade, rapid advances in the development of novel techniques for evaluating food quality attributes have led to the development of non-invasive and non-destructive instrumental techniques, such as biosensors, e-sensors, and spectroscopic methods. The available scientific reports demonstrate that all these new techniques provide a great deal of information with only one test, making them suitable for on-line and/or at-line process control. Moreover, these techniques often require little or no sample preparation and allow sample destruction to be avoided.",
+    "cited_by_count": 111,
+    "type": "article",
+    "is_retracted": false,
+    "open_access": {
+      "is_oa": true,
+      "oa_status": "gold",
+      "oa_url": "https://www.mdpi.com/1424-8220/21/4/1373/pdf?version=1614074732",
+      "any_repository_has_fulltext": true
+    },
+    "openalex_id": "https://openalex.org/W3131355896"
+  },
+  {
+    "doi": "10.3390/foods11131897",
+    "title": "Emerging Approach for Fish Freshness Evaluation: Principle, Application and Challenges",
+    "year": 2022,
+    "publication_date": "2022-06-26",
+    "journal": "Foods",
+    "authors": [
+      "Zhepeng Zhang",
+      "Ying Sun",
+      "Shangyuan Sang",
+      "Lingling Jia",
+      "Changrong Ou"
+    ],
+    "abstract": "Affected by micro-organisms and endogenous enzymes, fish are highly perishable during storage, processing and transportation. Efficient evaluation of fish freshness to ensure consumer safety and reduce raw material losses has received an increasing amount of attention. Several of the conventional freshness assessment techniques have plenty of shortcomings, such as being destructive, time-consuming and laborious. Recently, various sensors and spectroscopic techniques have shown great potential due to rapid analysis, low sample preparation and cost-effectiveness, and some methods are especially non-destructive and suitable for online or large-scale operations. Non-destructive techniques typically respond to characteristic substances produced by fish during spoilage without destroying the sample. In this review, we summarize, in detail, the principles and applications of emerging approaches for assessing fish freshness including visual indicators derived from intelligent packaging, active sensors, nuclear magnetic resonance (NMR) and optical spectroscopic techniques. Recent developments in emerging technologies have demonstrated their advantages in detecting fish freshness, but some challenges remain in popularization, optimizing sensor selectivity and sensitivity, and the development of algorithms and chemometrics in spectroscopic techniques.",
+    "cited_by_count": 76,
+    "type": "article",
+    "is_retracted": false,
+    "open_access": {
+      "is_oa": true,
+      "oa_status": "gold",
+      "oa_url": "https://www.mdpi.com/2304-8158/11/13/1897/pdf?version=1656470587",
+      "any_repository_has_fulltext": true
+    },
+    "openalex_id": "https://openalex.org/W4283578507"
+  },
+  {
+    "doi": "10.1111/1541-4337.13095",
+    "title": "Metal–oxide–semiconductor resistive gas sensors for fish freshness detection",
+    "year": 2022,
+    "publication_date": "2022-12-20",
+    "journal": "Comprehensive Reviews in Food Science and Food Safety",
+    "authors": [
+      "Kaidi Wu",
+      "Marc Debliquy",
+      "Chao Zhang"
+    ],
+    "abstract": "Fish are prone to spoilage and deterioration during processing, storage, or transportation. Therefore, there is a need for rapid and efficient techniques to detect and evaluate fish freshness during different periods or conditions. Gas sensors are increasingly important in the qualitative and quantitative evaluation of high-protein foods, including fish. Among them, metal-oxide-semiconductor resistive (MOSR) sensors with advantages such as low cost, small size, easy integration, and high sensitivity have been extensively studied in the past few years, which gradually show promising practical application prospects. Herein, we take the detection, classification, and assessment of fish freshness as the actual demand, and summarize the physical and chemical changes of fish during the spoilage process, the volatile marker gases released, and their production mechanisms. Then, we introduce the advantages, performance parameters, and working principles of gas sensors, and summarize the MOSR gas sensors aimed at detecting different kinds of volatile marker gases of fish spoiling in the last 5 years. After that, this paper reviews the research and application progress of MOSR gas sensor arrays and electronic nose technology for various odor indicators and fish freshness detection. Finally, this review points out the multifaceted challenges (sampling system, sensing module, and pattern recognition technology) faced by the rapid detection technology of fish freshness based on metal oxide gas sensors, and the potential solutions and development directions are proposed from the view of multidisciplinary intersection.",
+    "cited_by_count": 79,
+    "type": "article",
+    "is_retracted": false,
+    "open_access": {
+      "is_oa": true,
+      "oa_status": "green",
+      "oa_url": "https://orbi.umons.ac.be/bitstream/20.500.12907/44455/1/Comp%20Rev%20Food%20Sci%20Food%20Safe%20-%202022%20-%20Wu%20-%20Metal%20oxide%20semiconductor%20resistive%20gas%20sensors%20for%20fish%20freshness%20detection.pdf",
+      "any_repository_has_fulltext": true
+    },
+    "openalex_id": "https://openalex.org/W4312018857"
+  },
+  {
+    "doi": "10.1111/1750-3841.16865",
+    "title": "Current applications and future trends of artificial senses in fish freshness determination: A review",
+    "year": 2023,
+    "publication_date": "2023-12-05",
+    "journal": "Journal of Food Science",
+    "authors": [
+      "M. Nerandi Madhubhashini",
+      "Chamara P. Liyanage",
+      "Amali U. Alahakoon",
+      "Rumesh Prasanga Liyanage"
+    ],
+    "abstract": "Fish is a highly demanding food product and the determination of fish freshness is crucial as it is a fundamental factor in fish quality. Therefore, the fishery industry has been working on developing rapid fish freshness determination methods to monitor freshness levels. Artificial senses that mimic human senses are developed as convenient emerging technologies for fish freshness determination. Computer vision, electronic nose (e-nose), and electronic tongue (e-tongue) are the emerging artificial senses for fish freshness determination. This review article is uniquely worked upon to investigate the current applications of the artificial senses in fish freshness determination while describing the steps, and fundamental principles behind each artificial sense, comparing them with their advantages and limitations, and future trends related to fish freshness determination. Among the artificial senses, computer vision determines the freshness of fish in a completely nondestructive way while the e-tongue determines the freshness of fish in a completely destructive way. There are developed e-noses for fish freshness determination in both destructive and nondestructive ways. By analyzing visual cues such as color, computer vision systems can assess fish quality without the need for physical contact and it makes computer vision suitable for large-scale industrial fish quality assessing applications. Overall, this review study reveals artificial senses as a proven replacement for traditional sensory panels in determining fish freshness precisely and conveniently. As future trends, there is a demand for developing applications for consumers to determine fish freshness based on artificial senses.",
+    "cited_by_count": 42,
+    "type": "article",
+    "is_retracted": false,
+    "open_access": {
+      "is_oa": true,
+      "oa_status": "bronze",
+      "oa_url": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1111/1750-3841.16865",
+      "any_repository_has_fulltext": false
+    },
+    "openalex_id": "https://openalex.org/W4389336840"
+  },
+  {
+    "doi": "10.3390/s23115149",
+    "title": "Rapid Assessment of Fish Freshness for Multiple Supply-Chain Nodes Using Multi-Mode Spectroscopy and Fusion-Based Artificial Intelligence",
+    "year": 2023,
+    "publication_date": "2023-05-28",
+    "journal": "Sensors",
+    "authors": [
+      "Hossein Kashani Zadeh",
+      "Mike Hardy",
+      "Mitchell Sueker",
+      "Yicong Li",
+      "Angelis Tzouchas",
+      "Nicholas B. MacKinnon",
+      "Gregory H. Bearman",
+      "Simon A. Haughey",
+      "Alireza Akhbardeh",
+      "Insuck Baek",
+      "Chansong Hwang",
+      "Jianwei Qin",
+      "Amanda M. Tabb",
+      "Rosalee S. Rasmussen Hellberg",
+      "Shereen S. Ismail",
+      "Hassan Reza",
+      "Fartash Vasefi",
+      "Moon Jae Kim",
+      "Kouhyar Tavakolian",
+      "Christopher Trevor Elliott"
+    ],
+    "abstract": "This study is directed towards developing a fast, non-destructive, and easy-to-use handheld multimode spectroscopic system for fish quality assessment. We apply data fusion of visible near infra-red (VIS-NIR) and short wave infra-red (SWIR) reflectance and fluorescence (FL) spectroscopy data features to classify fish from fresh to spoiled condition. Farmed Atlantic and wild coho and chinook salmon and sablefish fillets were measured. Three hundred measurement points on each of four fillets were taken every two days over 14 days for a total of 8400 measurements for each spectral mode. Multiple machine learning techniques including principal component analysis, self-organized maps, linear and quadratic discriminant analyses, k-nearest neighbors, random forest, support vector machine, and linear regression, as well as ensemble and majority voting methods, were used to explore spectroscopy data measured on fillets and to train classification models to predict freshness. Our results show that multi-mode spectroscopy achieves 95% accuracy, improving the accuracies of the FL, VIS-NIR and SWIR single-mode spectroscopies by 26, 10 and 9%, respectively. We conclude that multi-mode spectroscopy and data fusion analysis has the potential to accurately assess freshness and predict shelf life for fish fillets and recommend this study be expanded to a larger number of species in the future.",
+    "cited_by_count": 35,
+    "type": "article",
+    "is_retracted": false,
+    "open_access": {
+      "is_oa": true,
+      "oa_status": "gold",
+      "oa_url": "https://www.mdpi.com/1424-8220/23/11/5149/pdf?version=1685265476",
+      "any_repository_has_fulltext": true
+    },
+    "openalex_id": "https://openalex.org/W4378619179"
+  },
+  {
+    "doi": "10.1016/j.chemolab.2023.105059",
+    "title": "Does the fish rot from the head? Hyperspectral imaging and machine learning for the evaluation of fish freshness",
+    "year": 2024,
+    "publication_date": "2024-01-07",
+    "journal": "Chemometrics and Intelligent Laboratory Systems",
+    "authors": [
+      "Mike Hardy",
+      "Bernadette Moser",
+      "Simon A. Haughey",
+      "Christopher Trevor Elliott"
+    ],
+    "abstract": "Salmon fillet was analysed via absorption spectroscopy with a hyperspectral camera (400–1000 nm) for four consecutive storage days. Optimised K-Nearest Neighbours analyses was performed on all variables (wavelengths) returning an average classification accuracy of 77.0 % for storage day prediction (across all days). A five principal component (PC) model returned an average accuracy of 73.7 % (all days). A histogram analysis of spectral pixels in the hyperspectral images matching reference spectra displayed increases in spoilt regions as the fillet aged for a Tail Bottom fillet section. Overall, five out of 12 of the fillet areas showed a monotonic increase in spoilage (p-value≈0.01). While Principal Component Analysis showed minimal separation in foremost PCs between days, this was improved by using ‘fresh’ and ‘spoilt’ class labels prescribed by the hyperspectral data. Via mean spectrum analysis, the dampening of an absorbance band around 600 nm was identified as the main discriminator between fresh and spoilt datasets. Therefore, spatial inhomogeneity of sample freshness should be considered in fish freshness studies, and hyperspectral imaging can be useful as tool to do so.",
+    "cited_by_count": 17,
+    "type": "article",
+    "is_retracted": false,
+    "open_access": {
+      "is_oa": true,
+      "oa_status": "hybrid",
+      "oa_url": "https://ars.els-cdn.com/content/image/1-s2.0-S016974392300309X-ga1_lrg.jpg",
+      "any_repository_has_fulltext": true
+    },
+    "openalex_id": "https://openalex.org/W4390650002"
+  },
+  {
+    "doi": "10.3390/s25144374",
+    "title": "Leveraging Feature Fusion of Image Features and Laser Reflectance for Automated Fish Freshness Classification",
+    "year": 2025,
+    "publication_date": "2025-07-12",
+    "journal": "Sensors",
+    "authors": [
+      "Caner Balım",
+      "Nevzat Olgun",
+      "Mücahit Çalışan"
+    ],
+    "abstract": "Fish is important for human health due to its high nutritional value. However, it is prone to spoilage due to its structural characteristics. Traditional freshness assessment methods, such as visual inspection, are subjective and prone to inconsistency. This study proposes a novel, cost-effective hybrid methodology for automated three-level fish freshness classification (Day 1, Day 2, Day 3) by integrating single-wavelength laser reflectance data with deep learning-based image features. A comprehensive dataset was created by collecting visual and laser data from 130 mackerel specimens over three consecutive days under controlled conditions. Image features were extracted using four pre-trained CNN architectures and fused with laser features to form a unified representation. The combined features were classified using SVM, MLP, and RF algorithms. The experimental results demonstrated that the proposed multimodal approach significantly outperformed single-modality methods, achieving average classification accuracy of 88.44%. This work presents an original contribution by demonstrating, for the first time, the effectiveness of combining low-cost laser sensing and deep visual features for freshness prediction, with potential for real-time mobile deployment.",
+    "cited_by_count": 7,
+    "type": "article",
+    "is_retracted": false,
+    "open_access": {
+      "is_oa": true,
+      "oa_status": "gold",
+      "oa_url": "https://www.mdpi.com/1424-8220/25/14/4374/pdf?version=1752321740",
+      "any_repository_has_fulltext": true
+    },
+    "openalex_id": "https://openalex.org/W4412391548"
+  },
+  {
+    "doi": "10.3390/foods14101805",
+    "title": "A Smartphone-Based Non-Destructive Multimodal Deep Learning Approach Using pH-Sensitive Pitaya Peel Films for Real-Time Fish Freshness Detection",
+    "year": 2025,
+    "publication_date": "2025-05-19",
+    "journal": "Foods",
+    "authors": [
+      "Yixuan Pan",
+      "Yujie Wang",
+      "Yuzhe Zhou",
+      "Jiacheng Zhou",
+      "Manxi Chen",
+      "Dongling Liu",
+      "Feier Li",
+      "Can Liu",
+      "Mingwan Zeng",
+      "Dongjing Jiang",
+      "Xiangyang Yuan",
+      "Hejun Wu"
+    ],
+    "abstract": "The detection of fish freshness is crucial for ensuring food safety. This study addresses the limitations of traditional detection methods, which rely on laboratory equipment and complex procedures, by proposing a smartphone-based detection method, termed FreshFusionNet, that utilizes a pitaya peel pH intelligent indicator film in conjunction with multimodal deep learning. The pitaya peel indicator film, prepared using high-pressure homogenization technology, demonstrates a significant color change from dark red to yellow in response to the volatile alkaline substances released during fish spoilage. To construct a multimodal dataset, 3600 images of the indicator film were captured using a smartphone under various conditions (natural light and indoor light) and from multiple angles (0° to 120°), while simultaneously recording pH values, total volatile basic nitrogen (TVB-N), and total viable count (TVC) data. Based on the lightweight MobileNetV2 network, a Multi-scale Dilated Fusion Attention module (MDFA) was designed to enhance the robustness of color feature extraction. A Temporal Convolutional Network (TCN) was then used to model dynamic patterns in chemical indicators across spoilage stages, combined with a Context-Aware Gated Fusion (CAG-Fusion) mechanism to adaptively integrate image and chemical temporal features. Experimental results indicate that the overall classification accuracy of FreshFusionNet reaches 99.61%, with a single inference time of only 142 ± 40 milliseconds (tested on Xiaomi 14). This method eliminates the need for professional equipment and enables real-time, non-destructive detection of fish spoilage through smartphones, providing consumers and the food supply chain with a low-cost, portable quality-monitoring tool, thereby promoting the intelligent and universal development of food safety detection technology.",
+    "cited_by_count": 17,
+    "type": "article",
+    "is_retracted": false,
+    "open_access": {
+      "is_oa": true,
+      "oa_status": "gold",
+      "oa_url": "https://doi.org/10.3390/foods14101805",
+      "any_repository_has_fulltext": true
+    },
+    "openalex_id": "https://openalex.org/W4410493645"
+  },
+  {
+    "doi": "10.1109/access.2023.3286980",
+    "title": "Seafood Quality Detection Using Electronic Nose and Machine Learning Algorithms With Hyperparameter Optimization",
+    "year": 2023,
+    "publication_date": "2023-01-01",
+    "journal": "IEEE Access",
+    "authors": [
+      "Dedy Rahman Wijaya",
+      "Nailatul Fadhilah Syarwan",
+      "Muhammad Agus Nugraha",
+      "Dahliar Ananda",
+      "Tora Fahrudin",
+      "Rini Putri Handayani"
+    ],
+    "abstract": "The fisheries sector holds great importance in the Indonesian economy, particularly in terms of its contribution to growth and development. Both the fisheries and marine industries play significant roles in driving economic activities. The rising consumption of marine fishery products has resulted in a growing market demand for high-quality and safe products. Meeting this demand necessitates the maintenance of freshness in marine fishery products. Thus, this research aims to develop a fast, cheap, accurate method utilizing an electronic nose (e-nose) and machine learning algorithms as an alternative method for assessing the freshness quality of marine fishery products (seafood). This experiment employs seven algorithms with hyperparameter optimization to obtain the best performance. Machine learning algorithms are used for classification and regression tasks. The objective is to detect the freshness quality of marine fishery products accurately (classification task) while also identifying microbial populations present in the seafood (regression task). Through extensive investigations, the classification and regression models, specifically employing the k-Nearest Neighbors algorithm, demonstrated remarkable performance, achieving a very high accuracy score. Furthermore, the regression model yielded an RMSE value of 0.03 and an R2value of 0.995, indicating the effectiveness of the approach in assessing and quantifying the quality attributes of marine fishery products.",
+    "cited_by_count": 46,
+    "type": "article",
+    "is_retracted": false,
+    "open_access": {
+      "is_oa": true,
+      "oa_status": "gold",
+      "oa_url": "https://ieeexplore.ieee.org/ielx7/6287639/10005208/10154464.pdf",
+      "any_repository_has_fulltext": true
+    },
+    "openalex_id": "https://openalex.org/W4380881487"
+  },
+  {
+    "doi": "10.1109/jsen.2023.3335954",
+    "title": "A Fish Meat Freshness Detector for IoT-Based Seafood Market Applications",
+    "year": 2023,
+    "publication_date": "2023-12-01",
+    "journal": "IEEE Sensors Journal",
+    "authors": [
+      "Cheng‐Ta Chiang"
+    ],
+    "abstract": "A new work of a fish meat freshness detector for Internet-of-Things (IoT)-based seafood market applications is presented. Unsimilar to past works, the proposed detector is designed to conquer an influence of low-frequency band noise generated by electrical devices used in the seafood market, such as electric fish scalers or pin-bone removers. Via the proposed detector, the information of fish meat freshness is able to be obtained clearly and conveniently transmitted by IoT devices. The measured standing time (i.e., the fish meat was exposed in the air and room temperature 27 °C) was 0–55 min, and 76.3–69.5 dB of the measured corresponding signal-to-noise-distortion ratio (SNDR) is guaranteed. Thus, a linear phenomenon of the standing time versus the SNDR can be resulted in. Finally, a validation to verify the proposed detector used in the seafood market was successfully proven.",
+    "cited_by_count": 2,
+    "type": "article",
+    "is_retracted": false,
+    "open_access": {
+      "is_oa": false,
+      "oa_status": "closed",
+      "oa_url": null,
+      "any_repository_has_fulltext": false
+    },
+    "openalex_id": "https://openalex.org/W4389252764"
+  },
+  {
+    "doi": "10.1016/j.foodres.2025.116313",
+    "title": "E-nose based control charts for fish freshness evaluation",
+    "year": 2025,
+    "publication_date": "2025-03-19",
+    "journal": "Food Research International",
+    "authors": [
+      "Susanna Buratti",
+      "Silvia Grassi",
+      "Paolo Giuseppe Ubaldi",
+      "Alberto Pianezzola",
+      "S. Benedetti"
+    ],
+    "abstract": "Freshness is a key indicator of fish quality, making it essential to monitor throughout the food supply chain, particularly during distribution. A rapid, straightforward analytical method for assessing fish quality can provide valuable insights when products reach distribution centers or are commercialized. This study aims to develop a simplified approach based on an electronic nose (e-nose) system to evaluate the freshness of fish products within the distribution chain. The study monitored five seafood products - cuttlefish, red mullet, Atlantic cod, Atlantic mackerel, and mantis shrimp - throughout their shelf life, from arrival and packaging at the distribution centers to beyond their expiration dates. A portable electronic nose, composed by four selected metal oxide semiconductor sensors, a photoionization detector and two electrochemical cells, was used to assess the products, alongside traditional microbial analyses (Total Viable Count). The proposed method identified warning and control limits based on e-nose data, which were further confirmed by microbial testing. Control charts were developed and externally validated to assess product quality through odor intensity measurements by e-nose. • A simplified e-nose approach to assess seafood freshness in the distribution chain. • Sigmoidal curves describe the microbial growth and the evolution of odor during storage. • E-nose warning and control limits were identified and validated by microbial analysis. • A control chart was built based on odor intensity of seafood.",
+    "cited_by_count": 21,
+    "type": "article",
+    "is_retracted": false,
+    "open_access": {
+      "is_oa": true,
+      "oa_status": "hybrid",
+      "oa_url": "https://doi.org/10.1016/j.foodres.2025.116313",
+      "any_repository_has_fulltext": true
+    },
+    "openalex_id": "https://openalex.org/W4408596634"
+  },
+  {
+    "doi": "10.1109/access.2025.3577128",
+    "title": "A Portable Real-Time Electronic Nose for Evaluating Seafood Freshness Using Machine Learning",
+    "year": 2025,
+    "publication_date": "2025-01-01",
+    "journal": "IEEE Access",
+    "authors": [
+      "Muhammad Rafi Mahfuz Setyagraha",
+      "Hurul Aini Nurqamaradillah",
+      "Laksamana Mikhail Hermawan",
+      "Nyoman Raflly Pratama",
+      "Ledya Novamizanti",
+      "Dedy Rahman Wijaya"
+    ],
+    "abstract": "Real-time evaluation of seafood freshness is essential for ensuring quality and safety. This study presents an electronic nose (e-nose) system designed to assess seafood freshness using gas sensors and machine learning (ML) algorithms. The system detects volatile organic compounds (VOCs) released during spoilage and employs hyperparameter-optimized ML models for both classification (fresh vs. not fresh) and regression (shelf-life prediction). From an initial pool of eight gas sensors, four were selected based on Predictive Power Score (PPS) analysis for their sensitivity to spoilage-related gases: MQ137 (ammonia), MQ2 (alcohol), MQ136 (hydrogen sulfide), and MQ9 (methane). A comprehensive dataset, E-Nose-Based Seafood Freshness (ESF), was developed, comprising 336,997 data points from five major seafood species: tuna, salmon, cod, shrimp, and crab. Various ML models were evaluated, including Random Forest, KNN, Naive Bayes, Decision Tree, AdaBoost, Gradient Boosting, and XGBoost. The XGBoost achieved the best performance with 100% precision, recall, accuracy, and F1-score, and a cross-validation accuracy of 99.8%. It also demonstrated excellent efficiency with detection times under 1 millisecond and memory usage of ~4 kB. For regression, XGBoost maintained strong results (R² = 100%, RMSE = 0.08, CV MSE = 0.009) with fast prediction times (~12 milliseconds) and memory usage under 5 kB. These findings confirm the system’s potential as a lightweight, scalable, and accurate solution for real-time seafood freshness monitoring, supporting food safety, quality assurance, and waste reduction in the supply chain.",
+    "cited_by_count": 11,
+    "type": "article",
+    "is_retracted": false,
+    "open_access": {
+      "is_oa": true,
+      "oa_status": "gold",
+      "oa_url": "https://doi.org/10.1109/access.2025.3577128",
+      "any_repository_has_fulltext": true
+    },
+    "openalex_id": "https://openalex.org/W4411055217"
+  },
+  {
+    "doi": "10.1016/j.foodchem.2022.134325",
+    "title": "Prediction of the freshness of horse mackerel (Trachurus japonicus) using E-nose, E-tongue, and colorimeter based on biochemical indexes analyzed during frozen storage of whole fish",
+    "year": 2022,
+    "publication_date": "2022-09-21",
+    "journal": "Food Chemistry",
+    "authors": [
+      "Hongyue Li",
+      "Yang Wang",
+      "Jiaxin Zhang",
+      "Xuepeng Li",
+      "Jinxiang Wang",
+      "Shumin Yi",
+      "Wenhui Zhu",
+      "Yongxia Xu",
+      "Jianrong Li"
+    ],
+    "abstract": "",
+    "cited_by_count": 132,
+    "type": "article",
+    "is_retracted": false,
+    "open_access": {
+      "is_oa": false,
+      "oa_status": "closed",
+      "oa_url": null,
+      "any_repository_has_fulltext": false
+    },
+    "openalex_id": "https://openalex.org/W4296632099"
+  },
+  {
+    "doi": "10.5626/jcse.2022.16.3.153",
+    "title": "Fish Freshness Identification Using Machine Learning: Performance Comparison of k-NN and Naïve Bayes Classifier",
+    "year": 2022,
+    "publication_date": "2022-09-30",
+    "journal": "Journal of Computing Science and Engineering",
+    "authors": [
+      "Anton Yudhana",
+      "Rusydi Umar",
+      "Sabarudin Saputra"
+    ],
+    "abstract": "Fish is one of the food sources that should be examined for freshness before being consumed. The consumption of rotten fish can cause various diseases. The rotten fish have changed color on the gills, skin, flesh, and eyes and have a pungent odour. Fish freshness can be assessed using a variety of conventional methods, but these methods have limitations, such as requiring relatively expensive equipment and trained personnel and being destructive. We use machine learning because it is non-destructive, reduces costs, and is easy to use. This study aims to identify the freshness of fish using k-nearest neighbor (k-NN) and Naïve Bayes (NB) classification methods based on the fish-eye image. The features used in the classification process are RGB and GLCM. The research stages consist of the fish collection process, image acquisition and class division, preprocessing and ROI detection, feature extraction and dataset split, and the classification process. The results show that the k-NN method has better performance than NB with average accuracy, precision, recall, specificity, and AUC of 0.97, 0.97, 0.97, 0.97, and 0.97, respectively.",
+    "cited_by_count": 34,
+    "type": "article",
+    "is_retracted": false,
+    "open_access": {
+      "is_oa": false,
+      "oa_status": "closed",
+      "oa_url": null,
+      "any_repository_has_fulltext": false
+    },
+    "openalex_id": "https://openalex.org/W4312320137"
+  },
+  {
+    "doi": "10.1007/s00217-024-04493-0",
+    "title": "Fisheye freshness detection using common deep learning algorithms and machine learning methods with a developed mobile application",
+    "year": 2024,
+    "publication_date": "2024-04-18",
+    "journal": "European Food Research and Technology",
+    "authors": [
+      "Müslüme Beyza Yıldız",
+      "Elham Tahsin Yasin",
+      "Murat Köklü"
+    ],
+    "abstract": "Abstract Fish is commonly ingested as a source of protein and essential nutrients for humans. To fully benefit from the proteins and substances in fish it is crucial to ensure its freshness. If fish is stored for an extended period, its freshness deteriorates. Determining the freshness of fish can be done by examining its eyes, smell, skin, and gills. In this study, artificial intelligence techniques are employed to assess fish freshness. The author’s objective is to evaluate the freshness of fish by analyzing its eye characteristics. To achieve this, we have developed a combination of deep and machine learning models that accurately classify the freshness of fish. Furthermore, an application that utilizes both deep learning and machine learning, to instantly detect the freshness of any given fish sample was created. Two deep learning algorithms (SqueezeNet, and VGG19) were implemented to extract features from image data. Additionally, five machine learning models to classify the freshness levels of fish samples were applied. Machine learning models include (k-NN, RF, SVM, LR, and ANN). Based on the results, it can be inferred that employing the VGG19 model for feature selection in conjunction with an Artificial Neural Network (ANN) for classification yields the most favorable success rate of 77.3% for the FFE dataset. Graphical Abstract",
+    "cited_by_count": 53,
+    "type": "article",
+    "is_retracted": false,
+    "open_access": {
+      "is_oa": true,
+      "oa_status": "hybrid",
+      "oa_url": "https://link.springer.com/content/pdf/10.1007/s00217-024-04493-0.pdf",
+      "any_repository_has_fulltext": false
+    },
+    "openalex_id": "https://openalex.org/W4394933439"
+  },
+  {
+    "doi": "10.3390/foods15010068",
+    "title": "Deep Learning-Based Prediction of Fish Freshness and Purchasability Using Multi-Angle Image Data",
+    "year": 2025,
+    "publication_date": "2025-12-25",
+    "journal": "Foods",
+    "authors": [
+      "Sakhi Mohammad Hamidy",
+      "Yusuf Kuvvetli",
+      "Yetkin Sakarya",
+      "Serya Tülin Özkütük",
+      "Yeşim Özoğul"
+    ],
+    "abstract": ") using deep learning models based on image data. For this purpose, 10 fish were monitored daily from the day of purchase until three days after spoilage, with multi-angle imaging (eight distinct perspectives per fish, both with and without background) and corresponding quality analyses. A total of 22 quality parameters-10 categorical (sensory-based) and 12 numerical (color-based)-were evaluated, with the purchasability parameter defined as the most critical indicator of freshness. Using seven popular transfer learning algorithms (EfficientNetB0, ResNet50, DenseNet121, VGG16, InceptionV3, MobileNet, and VGG19), 2464 predictive models (1120 classification and 1344 regression) were trained. Classification models were evaluated using accuracy, precision, recall, F1-score, and response time, while regression models were assessed using mean absolute error and tolerance-based error metrics. The results showed that the MobileNet algorithm achieved the best overall performance, successfully predicting 15 of the 22 parameters with the lowest error or highest accuracy. Importantly, in the prediction of the most critical parameter-purchasability-the DenseNet121 architecture yielded the best classification performance with an accuracy of 0.9894. The findings indicate that deep learning-based image analysis is a viable method for evaluating the freshness of fish.",
+    "cited_by_count": 4,
+    "type": "article",
+    "is_retracted": false,
+    "open_access": {
+      "is_oa": true,
+      "oa_status": "gold",
+      "oa_url": "https://www.mdpi.com/2304-8158/15/1/68/pdf?version=1766655056",
+      "any_repository_has_fulltext": true
+    },
+    "openalex_id": "https://openalex.org/W7117307229"
+  },
+  {
+    "doi": "10.1016/j.jafr.2024.101139",
+    "title": "Framework for fish freshness detection and rotten fish removal in Bangladesh using mask R–CNN method with robotic arm and fisheye analysis",
+    "year": 2024,
+    "publication_date": "2024-04-02",
+    "journal": "Journal of Agriculture and Food Research",
+    "authors": [
+      "Mahamudul Hasan",
+      "Nishat Vasker",
+      "Md Miskat Hossain",
+      "M. I. H. Bhuiyan",
+      "Joy Biswas",
+      "Mohammad Rifat Ahmmad Rashid"
+    ],
+    "abstract": "Fish-exporting countries must meet international standards and customer expectations to avoid trade disruption and economic repercussions. Ensuring the quality of fish products is therefore not just a matter of reputation but also of economic stability. Bangladesh, a major fish exporter, maintaining the quality of exported fish products is crucial. A single faulty product can have serious consequences, potentially causing harm. For this reason, we develop a deep learning-based approach capable of detecting and dividing rotten fish. We have used the Mask R–CNN method for our model. A device captures images of fish eyes and sends them to a computer system. The condition of a fish, whether fresh or rotten, can be determined by its eyes. A collection of 5000 image datasets is developed in this research work. The input images start matching the dataset through the Mask R–CNN and give us the result. Based on the result, if the fish is found fresh, it will proceed through the conveyor system; however, if it is identified as rotten, a robotic arm will separate it. To test its efficiency and reliability, we have tested it with 5000 images. And the test satisfied us with the results of 96.5% accuracy. With the assistance of our model, fish-exporting nations can efficiently distinguish between fresh and rotten fish, enhancing their ability to export more significant quantities of high-quality fish.",
+    "cited_by_count": 16,
+    "type": "article",
+    "is_retracted": false,
+    "open_access": {
+      "is_oa": true,
+      "oa_status": "gold",
+      "oa_url": "https://doi.org/10.1016/j.jafr.2024.101139",
+      "any_repository_has_fulltext": true
+    },
+    "openalex_id": "https://openalex.org/W4393445923"
+  },
+  {
+    "doi": "10.1016/j.inpa.2022.01.002",
+    "title": "Combining MobileNetV1 and Depthwise Separable convolution bottleneck with Expansion for classifying the freshness of fish eyes",
+    "year": 2022,
+    "publication_date": "2022-01-22",
+    "journal": "Information Processing in Agriculture",
+    "authors": [
+      "Eko Agus Prasetyo",
+      "Rani Purbaningtyas",
+      "Raden Dimas Adityo",
+      "Nanik Suciati",
+      "Chastine Fatichah"
+    ],
+    "abstract": "Image classification using Convolutional Neural Network (CNN) achieves optimal performance with a particular strategy. MobileNet reduces the parameter number for learning features by switching from the standard convolution paradigm to the depthwise separable convolution (DSC) paradigm. However, there are not enough features to learn for identifying the freshness of fish eyes. Furthermore, minor variances in features should not require complicated CNN architecture. In this paper, our first contribution proposed DSC Bottleneck with Expansion for learning features of the freshness of fish eyes with a Bottleneck Multiplier. The second contribution proposed Residual Transition to bridge current feature maps and skip connection feature maps to the next convolution block. The third contribution proposed MobileNetV1 Bottleneck with Expansion (MB-BE) for classifying the freshness of fish eyes. The result obtained from the Freshness of the Fish Eyes dataset shows that MB-BE outperformed other models such as original MobileNet, VGG16, Densenet, Nasnet Mobile with 63.21% accuracy.",
+    "cited_by_count": 56,
+    "type": "article",
+    "is_retracted": false,
+    "open_access": {
+      "is_oa": true,
+      "oa_status": "gold",
+      "oa_url": "https://www.sciencedirect.com/science/article/pii/S2214317322000026/pdf",
+      "any_repository_has_fulltext": true
+    },
+    "openalex_id": "https://openalex.org/W4207014040"
+  },
+  {
+    "doi": "10.3390/s21227620",
+    "title": "Recent Progress in Smart Electronic Nose Technologies Enabled with Machine Learning Methods",
+    "year": 2021,
+    "publication_date": "2021-11-16",
+    "journal": "Sensors",
+    "authors": [
+      "Zhenyi Ye",
+      "Yuan Liu",
+      "Qiliang Li"
+    ],
+    "abstract": "Machine learning methods enable the electronic nose (E-Nose) for precise odor identification with both qualitative and quantitative analysis. Advanced machine learning methods are crucial for the E-Nose to gain high performance and strengthen its capability in many applications, including robotics, food engineering, environment monitoring, and medical diagnosis. Recently, many machine learning techniques have been studied, developed, and integrated into feature extraction, modeling, and gas sensor drift compensation. The purpose of feature extraction is to keep robust pattern information in raw signals while removing redundancy and noise. With the extracted feature, a proper modeling method can effectively use the information for prediction. In addition, drift compensation is adopted to relieve the model accuracy degradation due to the gas sensor drifting. These recent advances have significantly promoted the prediction accuracy and stability of the E-Nose. This review is engaged to provide a summary of recent progress in advanced machine learning methods in E-Nose technologies and give an insight into new research directions in feature extraction, modeling, and sensor drift compensation.",
+    "cited_by_count": 203,
+    "type": "article",
+    "is_retracted": false,
+    "open_access": {
+      "is_oa": true,
+      "oa_status": "gold",
+      "oa_url": "https://www.mdpi.com/1424-8220/21/22/7620/pdf?version=1637127859",
+      "any_repository_has_fulltext": true
+    },
+    "openalex_id": "https://openalex.org/W3214207699"
+  },
+  {
+    "doi": "10.1016/j.crfs.2021.01.002",
+    "title": "Machine learning techniques for analysis of hyperspectral images to determine quality of food products: A review",
+    "year": 2021,
+    "publication_date": "2021-01-01",
+    "journal": "Current Research in Food Science",
+    "authors": [
+      "Dhritiman Saha",
+      "Annamalai Manickavasagan"
+    ],
+    "abstract": "Non-destructive testing techniques have gained importance in monitoring food quality over the years. Hyperspectral imaging is one of the important non-destructive quality testing techniques which provides both spatial and spectral information. Advancement in machine learning techniques for rapid analysis with higher classification accuracy have improved the potential of using this technique for food applications. This paper provides an overview of the application of different machine learning techniques in analysis of hyperspectral images for determination of food quality. It covers the principle underlying hyperspectral imaging, the advantages, and the limitations of each machine learning technique. The machine learning techniques exhibited rapid analysis of hyperspectral images of food products with high accuracy thereby enabling robust classification or regression models. The selection of effective wavelengths from the hyperspectral data is of paramount importance since it greatly reduces the computational load and time which enhances the scope for real time applications. Due to the feature learning nature of deep learning, it is one of the most promising and powerful techniques for real time applications. However, the field of deep learning is relatively new and need further research for its full utilization. Similarly, lifelong machine learning paves the way for real time HSI applications but needs further research to incorporate the seasonal variations in food quality. Further, the research gaps in machine learning techniques for hyperspectral image analysis, and the prospects are discussed.",
+    "cited_by_count": 503,
+    "type": "article",
+    "is_retracted": false,
+    "open_access": {
+      "is_oa": true,
+      "oa_status": "gold",
+      "oa_url": "https://www.sciencedirect.com/science/article/pii/S2665927121000034/pdf",
+      "any_repository_has_fulltext": true
+    },
+    "openalex_id": "https://openalex.org/W3128013506"
+  },
+  {
+    "doi": "10.1016/j.tifs.2021.02.044",
+    "title": "Rapid and noninvasive sensory analyses of food products by hyperspectral imaging: Recent application developments",
+    "year": 2021,
+    "publication_date": "2021-02-25",
+    "journal": "Trends in Food Science & Technology",
+    "authors": [
+      "Gözde Özdoğan",
+      "Xiaohui Lin",
+      "Da‐Wen Sun"
+    ],
+    "abstract": "Sensory analysis is the evaluation of the signals received through senses of sight, sound, taste, smell, and touch. The traditional methods for the analysis of sensory properties including trained sensory panel, colourimeters and texture analysers are invasive, laborious, and small-scale procedures. Hyperspectral imaging systems (HSI) has emerged as a less time-consuming and non-destructive method to determine the sensory properties of a diverse range of food products. This review provides a comprehensive overview of recent application developments since 2010 for identifying sensory properties including colour, defects, texture, flavour, freshness, and maturity in various food products by HSI. The Vis-NIR (400–1000 nm) hyperspectral imaging is most used for the assessment of sensory properties. Moreover, the commonly applied multivariate analysis in the sensory evaluation by HSI is linear regression algorithms (PLSR and MLR), but non-linear analysis achieves better performance for the prediction of sensory features. Regression models are applied for determining the texture, colour, flavour, and freshness of food products while classification models are used to detect the defects and maturity by which the most accurate results are obtained. Furthermore, the combination of algorithms and the integration of spectral and spatial information yield more accurate results in the assessment of sensory features. Although there are still some limitations to overcome for the improvement of the HSI system, studies on the application of HSI in the real-time monitoring of sensory properties have proved a great potential for industrial applications.",
+    "cited_by_count": 206,
+    "type": "article",
+    "is_retracted": false,
+    "open_access": {
+      "is_oa": true,
+      "oa_status": "hybrid",
+      "oa_url": "https://www.sciencedirect.com/science/article/pii/S0924224421001527/pdf",
+      "any_repository_has_fulltext": false
+    },
+    "openalex_id": "https://openalex.org/W3130011491"
+  },
+  {
+    "doi": "10.3390/chemosensors10070244",
+    "title": "E-Senses, Panel Tests and Wearable Sensors: A Teamwork for Food Quality Assessment and Prediction of Consumer’s Choices",
+    "year": 2022,
+    "publication_date": "2022-06-27",
+    "journal": "Chemosensors",
+    "authors": [
+      "Margherita Modesti",
+      "Alessandro Tonacci",
+      "Francesco Sansone",
+      "Lucia Billeci",
+      "Andrea Bellincontro",
+      "Gloria Cacopardo",
+      "Chiara Sanmartin",
+      "Isabella Taglieri",
+      "Francesca Venturi"
+    ],
+    "abstract": "At present, food quality is of utmost importance, not only to comply with commercial regulations, but also to meet the expectations of consumers; this aspect includes sensory features capable of triggering emotions through the citizen’s perception. To date, key parameters for food quality assessment have been sought through analytical methods alone or in combination with a panel test, but the evaluation of panelists’ reactions via psychophysiological markers is now becoming increasingly popular. As such, the present review investigates recent applications of traditional and novel methods to the specific field. These include electronic senses (e-nose, e-tongue, and e-eye), sensory analysis, and wearables for emotion recognition. Given the advantages and limitations highlighted throughout the review for each approach (both traditional and innovative ones), it was possible to conclude that a synergy between traditional and innovative approaches could be the best way to optimally manage the trade-off between the accuracy of the information and feasibility of the investigation. This evidence could help in better planning future investigations in the field of food sciences, providing more reliable, objective, and unbiased results, but it also has important implications in the field of neuromarketing related to edible compounds.",
+    "cited_by_count": 36,
+    "type": "article",
+    "is_retracted": false,
+    "open_access": {
+      "is_oa": true,
+      "oa_status": "gold",
+      "oa_url": "https://www.mdpi.com/2227-9040/10/7/244/pdf?version=1656406249",
+      "any_repository_has_fulltext": true
+    },
+    "openalex_id": "https://openalex.org/W4283660194"
+  },
+  {
+    "doi": "10.1007/s12393-021-09290-z",
+    "title": "Application of Artificial Intelligence in Food Industry—a Guideline",
+    "year": 2021,
+    "publication_date": "2021-08-09",
+    "journal": "Food Engineering Reviews",
+    "authors": [
+      "Nidhi Rajesh Mavani",
+      "Jarinah Mohd Ali",
+      "Suhaili Othman",
+      "M.A. Hussain",
+      "Haslaniza Hashim",
+      "Norliza Abd Rahman"
+    ],
+    "abstract": "Artificial intelligence (AI) has embodied the recent technology in the food industry over the past few decades due to the rising of food demands in line with the increasing of the world population. The capability of the said intelligent systems in various tasks such as food quality determination, control tools, classification of food, and prediction purposes has intensified their demand in the food industry. Therefore, this paper reviews those diverse applications in comparing their advantages, limitations, and formulations as a guideline for selecting the most appropriate methods in enhancing future AI- and food industry-related developments. Furthermore, the integration of this system with other devices such as electronic nose, electronic tongue, computer vision system, and near infrared spectroscopy (NIR) is also emphasized, all of which will benefit both the industry players and consumers",
+    "cited_by_count": 318,
+    "type": "article",
+    "is_retracted": false,
+    "open_access": {
+      "is_oa": true,
+      "oa_status": "hybrid",
+      "oa_url": "https://link.springer.com/content/pdf/10.1007/s12393-021-09290-z.pdf",
+      "any_repository_has_fulltext": true
+    },
+    "openalex_id": "https://openalex.org/W3188595600"
+  },
+  {
+    "doi": "10.1016/j.crfs.2021.03.009",
+    "title": "Deep learning and machine vision for food processing: A survey",
+    "year": 2021,
+    "publication_date": "2021-01-01",
+    "journal": "Current Research in Food Science",
+    "authors": [
+      "Lili Zhu",
+      "Petros Spachos",
+      "Erica Pensini",
+      "Konstantinos N. Plataniotis"
+    ],
+    "abstract": "The quality and safety of food is an important issue to the whole society, since it is at the basis of human health, social development and stability. Ensuring food quality and safety is a complex process, and all stages of food processing must be considered, from cultivating, harvesting and storage to preparation and consumption. However, these processes are often labour-intensive. Nowadays, the development of machine vision can greatly assist researchers and industries in improving the efficiency of food processing. As a result, machine vision has been widely used in all aspects of food processing. At the same time, image processing is an important component of machine vision. Image processing can take advantage of machine learning and deep learning models to effectively identify the type and quality of food. Subsequently, follow-up design in the machine vision system can address tasks such as food grading, detecting locations of defective spots or foreign objects, and removing impurities. In this paper, we provide an overview on the traditional machine learning and deep learning methods, as well as the machine vision techniques that can be applied to the field of food processing. We present the current approaches and challenges, and the future trends.",
+    "cited_by_count": 408,
+    "type": "article",
+    "is_retracted": false,
+    "open_access": {
+      "is_oa": true,
+      "oa_status": "gold",
+      "oa_url": "https://www.sciencedirect.com/science/article/pii/S2665927121000228/pdf",
+      "any_repository_has_fulltext": true
+    },
+    "openalex_id": "https://openalex.org/W3155907534"
+  },
+  {
+    "doi": "10.3390/s21041288",
+    "title": "Multimodal Deep Learning and Visible-Light and Hyperspectral Imaging for Fruit Maturity Estimation",
+    "year": 2021,
+    "publication_date": "2021-02-11",
+    "journal": "Sensors",
+    "authors": [
+      "Cinmayii Manliguez",
+      "John Y. Chiang"
+    ],
+    "abstract": "Fruit maturity is a critical factor in the supply chain, consumer preference, and agriculture industry. Most classification methods on fruit maturity identify only two classes: ripe and unripe, but this paper estimates six maturity stages of papaya fruit. Deep learning architectures have gained respect and brought breakthroughs in unimodal processing. This paper suggests a novel non-destructive and multimodal classification using deep convolutional neural networks that estimate fruit maturity by feature concatenation of data acquired from two imaging modes: visible-light and hyperspectral imaging systems. Morphological changes in the sample fruits can be easily measured with RGB images, while spectral signatures that provide high sensitivity and high correlation with the internal properties of fruits can be extracted from hyperspectral images with wavelength range in between 400 nm and 900 nm-factors that must be considered when building a model. This study further modified the architectures: AlexNet, VGG16, VGG19, ResNet50, ResNeXt50, MobileNet, and MobileNetV2 to utilize multimodal data cubes composed of RGB and hyperspectral data for sensitivity analyses. These multimodal variants can achieve up to 0.90 F1 scores and 1.45% top-2 error rate for the classification of six stages. Overall, taking advantage of multimodal input coupled with powerful deep convolutional neural network models can classify fruit maturity even at refined levels of six stages. This indicates that multimodal deep learning architectures and multimodal imaging have great potential for real-time in-field fruit maturity estimation that can help estimate optimal harvest time and other in-field industrial applications.",
+    "cited_by_count": 118,
+    "type": "article",
+    "is_retracted": false,
+    "open_access": {
+      "is_oa": true,
+      "oa_status": "gold",
+      "oa_url": "https://www.mdpi.com/1424-8220/21/4/1288/pdf",
+      "any_repository_has_fulltext": true
+    },
+    "openalex_id": "https://openalex.org/W3126336475"
+  },
+  {
+    "doi": "10.3390/s24082467",
+    "title": "Development of Multimodal Fusion Technology for Tomato Maturity Assessment",
+    "year": 2024,
+    "publication_date": "2024-04-11",
+    "journal": "Sensors",
+    "authors": [
+      "Yang Liu",
+      "Chaojie Wei",
+      "Seung-Chul Yoon",
+      "Xinzhi Ni",
+      "Wei Wang",
+      "Yizhe Liu",
+      "Daren Wang",
+      "Xiaorong Wang",
+      "Xiaohuan Guo"
+    ],
+    "abstract": "The maturity of fruits and vegetables such as tomatoes significantly impacts indicators of their quality, such as taste, nutritional value, and shelf life, making maturity determination vital in agricultural production and the food processing industry. Tomatoes mature from the inside out, leading to an uneven ripening process inside and outside, and these situations make it very challenging to judge their maturity with the help of a single modality. In this paper, we propose a deep learning-assisted multimodal data fusion technique combining color imaging, spectroscopy, and haptic sensing for the maturity assessment of tomatoes. The method uses feature fusion to integrate feature information from images, near-infrared spectra, and haptic modalities into a unified feature set and then classifies the maturity of tomatoes through deep learning. Each modality independently extracts features, capturing the tomatoes' exterior color from color images, internal and surface spectral features linked to chemical compositions in the visible and near-infrared spectra (350 nm to 1100 nm), and physical firmness using haptic sensing. By combining preprocessed and extracted features from multiple modalities, data fusion creates a comprehensive representation of information from all three modalities using an eigenvector in an eigenspace suitable for tomato maturity assessment. Then, a fully connected neural network is constructed to process these fused data. This neural network model achieves 99.4% accuracy in tomato maturity classification, surpassing single-modal methods (color imaging: 94.2%; spectroscopy: 87.8%; haptics: 87.2%). For internal and external maturity unevenness, the classification accuracy reaches 94.4%, demonstrating effective results. A comparative analysis of performance between multimodal fusion and single-modal methods validates the stability and applicability of the multimodal fusion technique. These findings demonstrate the key benefits of multimodal fusion in terms of improving the accuracy of tomato ripening classification and provide a strong theoretical and practical basis for applying multimodal fusion technology to classify the quality and maturity of other fruits and vegetables. Utilizing deep learning (a fully connected neural network) for processing multimodal data provides a new and efficient non-destructive approach for the massive classification of agricultural and food products.",
+    "cited_by_count": 44,
+    "type": "article",
+    "is_retracted": false,
+    "open_access": {
+      "is_oa": true,
+      "oa_status": "gold",
+      "oa_url": "https://www.mdpi.com/1424-8220/24/8/2467/pdf?version=1712903522",
+      "any_repository_has_fulltext": true
+    },
+    "openalex_id": "https://openalex.org/W4394755310"
+  },
+  {
+    "doi": "10.3390/chemosensors11070364",
+    "title": "Multitask Deep Learning-Based Pipeline for Gas Leakage Detection via E-Nose and Thermal Imaging Multimodal Fusion",
+    "year": 2023,
+    "publication_date": "2023-06-28",
+    "journal": "Chemosensors",
+    "authors": [
+      "Omneya Attallah"
+    ],
+    "abstract": "Innovative engineering solutions that are efficient, quick, and simple to use are crucial given the rapid industrialization and technology breakthroughs in Industry 5.0. One of the areas receiving attention is the rise in gas leakage accidents at coal mines, chemical companies, and home appliances. To prevent harm to both the environment and human lives, rapid and automated detection and identification of the gas type is necessary. Most of the previous studies used a single mode of data to perform the detection process. However, instead of using a single source/mode, multimodal sensor fusion offers more accurate results. Furthermore, the majority used individual feature extraction approaches that extract either spatial or temporal information. This paper proposes a deep learning-based (DL) pipeline to combine multimodal data acquired via infrared (IR) thermal imaging and an array of seven metal oxide semiconductor (MOX) sensors forming an electronic nose (E-nose). The proposed pipeline is based on three convolutional neural networks (CNNs) models for feature extraction and bidirectional long-short memory (Bi-LSTM) for gas detection. Two multimodal data fusion approaches are used, including intermediate and multitask fusion. Discrete wavelet transform (DWT) is utilized in the intermediate fusion to combine the spatial features extracted from each CNN, providing spectral–temporal representation. In contrast, in multitask fusion, the discrete cosine transform (DCT) is used to merge all of the features obtained from the three CNNs trained with the multimodal data. The results show that the proposed fusion approach has boosted the gas detection performance reaching an accuracy of 98.47% and 99.25% for intermediate and multitask fusion, respectively. These results indicate that multitask fusion is superior to intermediate fusion. Therefore, the proposed system is capable of detecting gas leakage accurately and could be used in industrial applications.",
+    "cited_by_count": 49,
+    "type": "article",
+    "is_retracted": false,
+    "open_access": {
+      "is_oa": true,
+      "oa_status": "gold",
+      "oa_url": "https://www.mdpi.com/2227-9040/11/7/364/pdf?version=1688011219",
+      "any_repository_has_fulltext": true
+    },
+    "openalex_id": "https://openalex.org/W4382727417"
+  },
+  {
+    "doi": "10.1109/tpami.2023.3275156",
+    "title": "Multimodal Learning With Transformers: A Survey",
+    "year": 2023,
+    "publication_date": "2023-05-11",
+    "journal": "IEEE Transactions on Pattern Analysis and Machine Intelligence",
+    "authors": [
+      "Peng Xu",
+      "Xiatian Zhu",
+      "David Andrew Clifton"
+    ],
+    "abstract": "Transformer is a promising neural network learner, and has achieved great success in various machine learning tasks. Thanks to the recent prevalence of multimodal applications and Big Data, Transformer-based multimodal learning has become a hot topic in AI research. This paper presents a comprehensive survey of Transformer techniques oriented at multimodal data. The main contents of this survey include: (1) a background of multimodal learning, Transformer ecosystem, and the multimodal Big Data era, (2) a systematic review of Vanilla Transformer, Vision Transformer, and multimodal Transformers, from a geometrically topological perspective, (3) a review of multimodal Transformer applications, via two important paradigms, i.e., for multimodal pretraining and for specific multimodal tasks, (4) a summary of the common challenges and designs shared by the multimodal Transformer models and applications, and (5) a discussion of open problems and potential research directions for the community.",
+    "cited_by_count": 978,
+    "type": "article",
+    "is_retracted": false,
+    "open_access": {
+      "is_oa": true,
+      "oa_status": "hybrid",
+      "oa_url": "https://ieeexplore.ieee.org/ielx7/34/4359286/10123038.pdf",
+      "any_repository_has_fulltext": false
+    },
+    "openalex_id": "https://openalex.org/W4376226279"
+  },
+  {
+    "doi": "10.1038/s41591-022-01981-2",
+    "title": "Multimodal biomedical AI",
+    "year": 2022,
+    "publication_date": "2022-09-01",
+    "journal": "Nature Medicine",
+    "authors": [
+      "Julián Acosta",
+      "Guido J. Falcone",
+      "Pranav Rajpurkar",
+      "Eric J. Topol"
+    ],
+    "abstract": "The increasing availability of biomedical data from large biobanks, electronic health records, medical imaging, wearable and ambient biosensors, and the lower cost of genome and microbiome sequencing have set the stage for the development of multimodal artificial intelligence solutions that capture the complexity of human health and disease. In this Review, we outline the key applications enabled, along with the technical and analytical challenges. We explore opportunities in personalized medicine, digital clinical trials, remote monitoring and care, pandemic surveillance, digital twin technology and virtual health assistants. Further, we survey the data, modeling and privacy challenges that must be overcome to realize the full potential of multimodal artificial intelligence in health. Multimodal artificial intelligence models could unlock many exciting applications in health and medicine; this Review outlines the most promising uses and the technical pitfalls to avoid.",
+    "cited_by_count": 1322,
+    "type": "article",
+    "is_retracted": false,
+    "open_access": {
+      "is_oa": true,
+      "oa_status": "hybrid",
+      "oa_url": "https://www.nature.com/articles/s41591-022-01981-2.pdf",
+      "any_repository_has_fulltext": false
+    },
+    "openalex_id": "https://openalex.org/W4295951577"
+  },
+  {
+    "doi": "10.1038/s41746-022-00712-8",
+    "title": "Multimodal machine learning in precision health: A scoping review",
+    "year": 2022,
+    "publication_date": "2022-11-07",
+    "journal": "npj Digital Medicine",
+    "authors": [
+      "Adrienne Kline",
+      "Hanyin Wang",
+      "Yikuan Li",
+      "Saya R Dennis",
+      "Meghan R. Hutch",
+      "Zhenxing Xu",
+      "Fei Wang",
+      "Feixiong Cheng",
+      "Yuan Luo"
+    ],
+    "abstract": "Machine learning is frequently being leveraged to tackle problems in the health sector including utilization for clinical decision-support. Its use has historically been focused on single modal data. Attempts to improve prediction and mimic the multimodal nature of clinical expert decision-making has been met in the biomedical field of machine learning by fusing disparate data. This review was conducted to summarize the current studies in this field and identify topics ripe for future research. We conducted this review in accordance with the PRISMA extension for Scoping Reviews to characterize multi-modal data fusion in health. Search strings were established and used in databases: PubMed, Google Scholar, and IEEEXplore from 2011 to 2021. A final set of 128 articles were included in the analysis. The most common health areas utilizing multi-modal methods were neurology and oncology. Early fusion was the most common data merging strategy. Notably, there was an improvement in predictive performance when using data fusion. Lacking from the papers were clear clinical deployment strategies, FDA-approval, and analysis of how using multimodal approaches from diverse sub-populations may improve biases and healthcare disparities. These findings provide a summary on multimodal data fusion as applied to health diagnosis/prognosis problems. Few papers compared the outputs of a multimodal approach with a unimodal prediction. However, those that did achieved an average increase of 6.4% in predictive accuracy. Multi-modal machine learning, while more robust in its estimations over unimodal methods, has drawbacks in its scalability and the time-consuming nature of information concatenation.",
+    "cited_by_count": 521,
+    "type": "article",
+    "is_retracted": false,
+    "open_access": {
+      "is_oa": true,
+      "oa_status": "gold",
+      "oa_url": "https://www.nature.com/articles/s41746-022-00712-8.pdf",
+      "any_repository_has_fulltext": true
+    },
+    "openalex_id": "https://openalex.org/W4308885870"
+  },
+  {
+    "doi": "10.1016/j.inffus.2021.05.008",
+    "title": "A review of uncertainty quantification in deep learning: Techniques, applications and challenges",
+    "year": 2021,
+    "publication_date": "2021-05-23",
+    "journal": "Information Fusion",
+    "authors": [
+      "Moloud Abdar",
+      "Farhad Pourpanah",
+      "Sadiq Hussain",
+      "Dana Rezazadegan",
+      "Li Liu",
+      "Mohammad Ghavamzadeh",
+      "Paul Fieguth",
+      "Xiaochun Cao",
+      "Abbas Khosravi",
+      "U. Rajendra Acharya",
+      "Vladimir Makarenkov",
+      "Saeid Nahavandi"
+    ],
+    "abstract": "Uncertainty quantification (UQ) methods play a pivotal role in reducing the impact of uncertainties during both optimization and decision making processes. They have been applied to solve a variety of real-world problems in science and engineering. Bayesian approximation and ensemble learning techniques are two widely-used types of uncertainty quantification (UQ) methods. In this regard, researchers have proposed different UQ methods and examined their performance in a variety of applications such as computer vision (e.g., self-driving cars and object detection), image processing (e.g., image restoration), medical image analysis (e.g., medical image classification and segmentation), natural language processing (e.g., text classification, social media texts and recidivism risk-scoring), bioinformatics, etc. This study reviews recent advances in UQ methods used in deep learning, investigates the application of these methods in reinforcement learning, and highlights fundamental research challenges and directions associated with UQ.",
+    "cited_by_count": 2703,
+    "type": "article",
+    "is_retracted": false,
+    "open_access": {
+      "is_oa": true,
+      "oa_status": "hybrid",
+      "oa_url": "https://www.sciencedirect.com/science/article/pii/S1566253521001081/pdf",
+      "any_repository_has_fulltext": true
+    },
+    "openalex_id": "https://openalex.org/W3102100346"
+  },
+  {
+    "doi": "10.1186/s40537-023-00727-2",
+    "title": "A survey on deep learning tools dealing with data scarcity: definitions, challenges, solutions, tips, and applications",
+    "year": 2023,
+    "publication_date": "2023-04-14",
+    "journal": "Journal Of Big Data",
+    "authors": [
+      "Laith H. Alzubaidi",
+      "Jinshuai Bai",
+      "Aiman Al-Sabaawi",
+      "Jose I. Santamaria",
+      "Ahmed Shihab Albahri",
+      "Bashar Sami Nayyef Al-dabbagh",
+      "Mohammed Abdulraheem Fadhel",
+      "Mohamed Manoufali",
+      "Jinglan Zhang",
+      "Ali Hussein Al-Timemy",
+      "Ye Duan",
+      "Amjed A. Abdullah",
+      "Laith Farhan",
+      "Yi Lu",
+      "Ashish Gupta",
+      "Felix Albu",
+      "Amin M Abbosh",
+      "Yuantong Gu"
+    ],
+    "abstract": "Abstract Data scarcity is a major challenge when training deep learning (DL) models. DL demands a large amount of data to achieve exceptional performance. Unfortunately, many applications have small or inadequate data to train DL frameworks. Usually, manual labeling is needed to provide labeled data, which typically involves human annotators with a vast background of knowledge. This annotation process is costly, time-consuming, and error-prone. Usually, every DL framework is fed by a significant amount of labeled data to automatically learn representations. Ultimately, a larger amount of data would generate a better DL model and its performance is also application dependent. This issue is the main barrier for many applications dismissing the use of DL. Having sufficient data is the first step toward any successful and trustworthy DL application. This paper presents a holistic survey on state-of-the-art techniques to deal with training DL models to overcome three challenges including small, imbalanced datasets, and lack of generalization. This survey starts by listing the learning techniques. Next, the types of DL architectures are introduced. After that, state-of-the-art solutions to address the issue of lack of training data are listed, such as Transfer Learning (TL), Self-Supervised Learning (SSL), Generative Adversarial Networks (GANs), Model Architecture (MA), Physics-Informed Neural Network (PINN), and Deep Synthetic Minority Oversampling Technique (DeepSMOTE). Then, these solutions were followed by some related tips about data acquisition needed prior to training purposes, as well as recommendations for ensuring the trustworthiness of the training dataset. The survey ends with a list of applications that suffer from data scarcity, several alternatives are proposed in order to generate more data in each application including Electromagnetic Imaging (EMI), Civil Structural Health Monitoring, Medical imaging, Meteorology, Wireless Communications, Fluid Mechanics, Microelectromechanical system, and Cybersecurity. To the best of the authors’ knowledge, this is the first review that offers a comprehensive overview on strategies to tackle data scarcity in DL.",
+    "cited_by_count": 897,
+    "type": "article",
+    "is_retracted": false,
+    "open_access": {
+      "is_oa": true,
+      "oa_status": "gold",
+      "oa_url": "https://journalofbigdata.springeropen.com/counter/pdf/10.1186/s40537-023-00727-2",
+      "any_repository_has_fulltext": true
+    },
+    "openalex_id": "https://openalex.org/W4365504037"
+  },
+  {
+    "doi": "10.1007/s40820-024-01489-z",
+    "title": "Overcoming the Limits of Cross-Sensitivity: Pattern Recognition Methods for Chemiresistive Gas Sensor Array",
+    "year": 2024,
+    "publication_date": "2024-08-14",
+    "journal": "Nano-Micro Letters",
+    "authors": [
+      "Haixia Mei",
+      "Jingyi Peng",
+      "Tao Wang",
+      "Tingting Zhou",
+      "Hongran Zhao",
+      "Tong Zhang",
+      "Zhi Zhang Yang"
+    ],
+    "abstract": "As information acquisition terminals for artificial olfaction, chemiresistive gas sensors are often troubled by their cross-sensitivity, and reducing their cross-response to ambient gases has always been a difficult and important point in the gas sensing area. Pattern recognition based on sensor array is the most conspicuous way to overcome the cross-sensitivity of gas sensors. It is crucial to choose an appropriate pattern recognition method for enhancing data analysis, reducing errors and improving system reliability, obtaining better classification or gas concentration prediction results. In this review, we analyze the sensing mechanism of cross-sensitivity for chemiresistive gas sensors. We further examine the types, working principles, characteristics, and applicable gas detection range of pattern recognition algorithms utilized in gas-sensing arrays. Additionally, we report, summarize, and evaluate the outstanding and novel advancements in pattern recognition methods for gas identification. At the same time, this work showcases the recent advancements in utilizing these methods for gas identification, particularly within three crucial domains: ensuring food safety, monitoring the environment, and aiding in medical diagnosis. In conclusion, this study anticipates future research prospects by considering the existing landscape and challenges. It is hoped that this work will make a positive contribution towards mitigating cross-sensitivity in gas-sensitive devices and offer valuable insights for algorithm selection in gas recognition applications.",
+    "cited_by_count": 170,
+    "type": "article",
+    "is_retracted": false,
+    "open_access": {
+      "is_oa": true,
+      "oa_status": "gold",
+      "oa_url": "https://link.springer.com/content/pdf/10.1007/s40820-024-01489-z.pdf",
+      "any_repository_has_fulltext": true
+    },
+    "openalex_id": "https://openalex.org/W4401593044"
+  },
+  {
+    "doi": "10.1007/s40820-024-01543-w",
+    "title": "Smart Gas Sensors: Recent Developments and Future Prospective",
+    "year": 2024,
+    "publication_date": "2024-11-03",
+    "journal": "Nano-Micro Letters",
+    "authors": [
+      "Boyang Zong",
+      "Shuanghong Wu",
+      "Yuehong Yang",
+      "Qiuju Li",
+      "Tao Tian",
+      "Shun Mao"
+    ],
+    "abstract": "Gas sensor is an indispensable part of modern society with wide applications in environmental monitoring, healthcare, food industry, public safety, etc. With the development of sensor technology, wireless communication, smart monitoring terminal, cloud storage/computing technology, and artificial intelligence, smart gas sensors represent the future of gas sensing due to their merits of real-time multifunctional monitoring, early warning function, and intelligent and automated feature. Various electronic and optoelectronic gas sensors have been developed for high-performance smart gas analysis. With the development of smart terminals and the maturity of integrated technology, flexible and wearable gas sensors play an increasing role in gas analysis. This review highlights recent advances of smart gas sensors in diverse applications. The structural components and fundamental principles of electronic and optoelectronic gas sensors are described, and flexible and wearable gas sensor devices are highlighted. Moreover, sensor array with artificial intelligence algorithms and smart gas sensors in \"Internet of Things\" paradigm are introduced. Finally, the challenges and perspectives of smart gas sensors are discussed regarding the future need of gas sensors for smart city and healthy living.",
+    "cited_by_count": 276,
+    "type": "article",
+    "is_retracted": false,
+    "open_access": {
+      "is_oa": true,
+      "oa_status": "gold",
+      "oa_url": "https://link.springer.com/content/pdf/10.1007/s40820-024-01543-w.pdf",
+      "any_repository_has_fulltext": true
+    },
+    "openalex_id": "https://openalex.org/W4404017951"
+  },
+  {
+    "doi": "10.3390/s25144437",
+    "title": "A Comprehensive Review on Sensor-Based Electronic Nose for Food Quality and Safety",
+    "year": 2025,
+    "publication_date": "2025-07-16",
+    "journal": "Sensors",
+    "authors": [
+      "Teodora Sanislav",
+      "George Dan Mois",
+      "Sherali Zeadally",
+      "Silviu Corneliu Folea",
+      "Tudor C. Radoni",
+      "Ebtesam Abdullah Al-Suhaimi"
+    ],
+    "abstract": "Food quality and safety are essential for ensuring public health, preventing foodborne illness, reducing food waste, maintaining consumer confidence, and supporting regulatory compliance and international trade. This has led to the emergence of many research works that focus on automating and streamlining the assessment of food quality. Electronic noses have become of paramount importance in this context. We analyze the current state of research in the development of electronic noses for food quality and safety. We examined research papers published in three different scientific databases in the last decade, leading to a comprehensive review of the field. Our review found that most of the efforts use portable, low-cost electronic noses, coupled with pattern recognition algorithms, for evaluating the quality levels in certain well-defined food classes, reaching accuracies exceeding 90% in most cases. Despite these encouraging results, key challenges remain, particularly in diversifying the sensor response across complex substances, improving odor differentiation, compensating for sensor drift, and ensuring real-world reliability. These limitations indicate that a complete device mimicking the flexibility and selectivity of the human olfactory system is not yet available. To address these gaps, our review recommends solutions such as the adoption of adaptive machine learning models to reduce calibration needs and enhance drift resilience and the implementation of standardized protocols for data acquisition and model validation. We introduce benchmark comparisons and a future roadmap for electronic noses that demonstrate their potential to evolve from controlled studies to scalable industrial applications. In doing so, this review aims not only to assess the state of the field but also to support its transition toward more robust, interpretable, and field-ready electronic nose technologies.",
+    "cited_by_count": 67,
+    "type": "article",
+    "is_retracted": false,
+    "open_access": {
+      "is_oa": true,
+      "oa_status": "gold",
+      "oa_url": "https://www.mdpi.com/1424-8220/25/14/4437/pdf",
+      "any_repository_has_fulltext": true
+    },
+    "openalex_id": "https://openalex.org/W4412784778"
+  },
+  {
+    "doi": "10.3390/app151910776",
+    "title": "Modern Trends in the Application of Electronic Nose Systems: A Review",
+    "year": 2025,
+    "publication_date": "2025-10-07",
+    "journal": "Applied Sciences",
+    "authors": [
+      "Stefan Ivanov",
+      "Jacek Łukasz Wilk-Jakubowski",
+      "Leszek Ciopiński",
+      "Łukasz Pawlik",
+      "Grzegorz Wilk-Jakubowski",
+      "Georgi Mihalev"
+    ],
+    "abstract": "Electronic nose (e-nose) systems have emerged as transformative tools for odor and gas analysis, leveraging advances in nanomaterials, sensor arrays, and machine learning (ML) to mimic biological olfaction. This review synthesizes recent developments in e-nose technology, focusing on innovations in sensor design (e.g., graphene-based nanomaterials, MEMS, and optical sensors), drift compensation techniques, and AI-driven data processing. We highlight key applications across healthcare (e.g., non-invasive disease diagnostics via breath analysis), food quality monitoring (e.g., spoilage detection and authenticity verification), and environmental management (e.g., pollution tracking and wastewater treatment). Despite progress, challenges such as sensor selectivity, long-term stability, and standardization persist. The paper underscores the potential of e-noses to replace conventional analytical methods, offering portability, real-time operation, and cost-effectiveness. Future directions include scalable fabrication, robust ML models, and IoT integration to expand their practical adoption.",
+    "cited_by_count": 10,
+    "type": "article",
+    "is_retracted": false,
+    "open_access": {
+      "is_oa": true,
+      "oa_status": "gold",
+      "oa_url": "https://www.mdpi.com/2076-3417/15/19/10776/pdf?version=1759827439",
+      "any_repository_has_fulltext": true
+    },
+    "openalex_id": "https://openalex.org/W4414888887"
+  },
+  {
+    "doi": "10.3390/foods14132350",
+    "title": "Deep Learning-Enhanced Spectroscopic Technologies for Food Quality Assessment: Convergence and Emerging Frontiers",
+    "year": 2025,
+    "publication_date": "2025-07-02",
+    "journal": "Foods",
+    "authors": [
+      "Zhichen Lun",
+      "Xiaohong Wu",
+      "Jiajun Dong",
+      "Bin Wu"
+    ],
+    "abstract": "Nowadays, the development of the food industry and economic recovery have driven escalating consumer demands for high-quality, nutritious, and safe food products, and spectroscopic technologies are increasingly prominent as essential tools for food quality inspection. Concurrently, the rapid rise of artificial intelligence (AI) has created new opportunities for food quality detection. As a critical branch of AI, deep learning synergizes with spectroscopic technologies to enhance spectral data processing accuracy, enable real-time decision making, and address challenges from complex matrices and spectral noise. This review summarizes six cutting-edge nondestructive spectroscopic and imaging technologies, near-infrared/mid-infrared spectroscopy, Raman spectroscopy, fluorescence spectroscopy, hyperspectral imaging (spanning the UV, visible, and NIR regions, to simultaneously capture both spatial distribution and spectral signatures of sample constituents), terahertz spectroscopy, and nuclear magnetic resonance (NMR), along with their transformative applications. We systematically elucidate the fundamental principles and distinctive merits of each technological approach, with a particular focus on their deep learning-based integration with spectral fusion techniques and hybrid spectral-heterogeneous fusion methodologies. Our analysis reveals that the synergy between spectroscopic technologies and deep learning demonstrates unparalleled superiority in speed, precision, and non-invasiveness. Future research should prioritize three directions: multimodal integration of spectroscopic technologies, edge computing in portable devices, and AI-driven applications, ultimately establishing a high-precision and sustainable food quality inspection system spanning from production to consumption.",
+    "cited_by_count": 83,
+    "type": "article",
+    "is_retracted": false,
+    "open_access": {
+      "is_oa": true,
+      "oa_status": "gold",
+      "oa_url": "https://www.mdpi.com/2304-8158/14/13/2350/pdf?version=1751440941",
+      "any_repository_has_fulltext": true
+    },
+    "openalex_id": "https://openalex.org/W4411923883"
+  },
+  {
+    "doi": "10.1002/fsn3.71534",
+    "title": "Multimodal AI for Real‐Time Food Safety and Quality: From Sensors to Foundation Models, Edge Deployment, and Regulation",
+    "year": 2026,
+    "publication_date": "2026-02-01",
+    "journal": "Food Science & Nutrition",
+    "authors": [
+      "Zhaojie Chen",
+      "Guangyu Zhang",
+      "Fan Zhang"
+    ],
+    "abstract": "Real-time assurance of food safety and quality requires decisions at line speed, from farm to retail, using signals that span vision, spectroscopy, volatiles, biosensing, and process telemetry. This review investigates and summarizes evidence on multimodal artificial intelligence that fuses such heterogeneous data to detect hazards, verify authenticity, and predict freshness within seconds. We outline sensing coverage along the chain, typical response times, and reported limits of detection, then detail data engineering practices that make disparate streams analysis-ready, including time synchronization, co-registration to ground truth, and robust sampling for multisite and multiseason generalization. We appraise fusion strategies, from early and late schemes to attention-based hybrids that learn joint embeddings across images, spectra, and gas sensor time series, and we summarize head-to-head studies where multimodality improves accuracy or reduces error against unimodal baselines. We discuss the maturation of foundation scale encoders and vision language systems for food tasks, together with efficient adaptation, knowledge infusion from HACCP, and bias control. Finally, we examine edge deployment and validation in industrial settings, including hardware constraints, latency budgets, repeatability and reproducibility, documentation for audits, and perspectives on regulatory alignment in EU and US contexts, extended to China's standards-driven framework where the National Health Commission (NHC) and the State Administration for Market Regulation (SAMR) jointly issue and update National Food Safety Standards (GB) that govern key compliance requirements for labelling and contaminant limits. Evidence gaps persist, notably few multisite deployments over long durations, limited public benchmarks for hyperspectral and e-nose fusion, and sparse cost-benefit analyses in the scholarly record. Addressing these gaps will enable trustworthy, auditable multimodal AI that complements existing controls and reduces waste while protecting consumers.",
+    "cited_by_count": 37,
+    "type": "article",
+    "is_retracted": false,
+    "open_access": {
+      "is_oa": true,
+      "oa_status": "hybrid",
+      "oa_url": "https://doi.org/10.1002/fsn3.71534",
+      "any_repository_has_fulltext": true
+    },
+    "openalex_id": "https://openalex.org/W7130649579"
+  },
+  {
+    "doi": "10.3390/bios14100468",
+    "title": "A Review of Advanced Sensor Technologies for Aquatic Products Freshness Assessment in Cold Chain Logistics",
+    "year": 2024,
+    "publication_date": "2024-09-30",
+    "journal": "Biosensors",
+    "authors": [
+      "Baichuan Wang",
+      "Kang Liu",
+      "Guangfen Wei",
+      "Aixiang He",
+      "Weifu Kong",
+      "Xiaoshuan Zhang"
+    ],
+    "abstract": "The evaluation of the upkeep and freshness of aquatic products within the cold chain is crucial due to their perishable nature, which can significantly impact both quality and safety. Conventional methods for assessing freshness in the cold chain have inherent limitations regarding specificity and accuracy, often requiring substantial time and effort. Recently, advanced sensor technologies have been developed for freshness assessment, enabling real-time and non-invasive monitoring via the detection of volatile organic compounds, biochemical markers, and physical properties. The integration of sensor technologies into cold chain logistics enhances the ability to maintain the quality and safety of aquatic products. This review examines the advancements made in multifunctional sensor devices for the freshness assessment of aquatic products in cold chain logistics, as well as the application of pattern recognition algorithms for identification and classification. It begins by outlining the categories of freshness criteria, followed by an exploration of the development of four key sensor devices: electronic noses, electronic tongues, biosensors, and flexible sensors. Furthermore, the review discusses the implementation of advanced pattern recognition algorithms in sensor devices for freshness detection and evaluation. It highlights the current status and future potential of sensor technologies for aquatic products within the cold chain, while also addressing the significant challenges that remain to be overcome.",
+    "cited_by_count": 33,
+    "type": "article",
+    "is_retracted": false,
+    "open_access": {
+      "is_oa": true,
+      "oa_status": "gold",
+      "oa_url": "https://www.mdpi.com/2079-6374/14/10/468/pdf?version=1727678449",
+      "any_repository_has_fulltext": true
+    },
+    "openalex_id": "https://openalex.org/W4402964362"
+  },
+  {
+    "doi": "10.1021/acsomega.2c06386",
+    "title": "Food Freshness Measurements and Product Distinguishing by a Portable Electronic Nose Based on Organic Field-Effect Transistors",
+    "year": 2023,
+    "publication_date": "2023-01-23",
+    "journal": "ACS Omega",
+    "authors": [
+      "Daniil S. Anisimov",
+      "Антон А. Абрамов",
+      "Victoria P. Gaidarzhi",
+      "Daria Kaplun",
+      "Elena V. Agina",
+      "Sergey Anatol'evich Ponomarenko"
+    ],
+    "abstract": "High Resolution Image Download MS PowerPoint Slide Determination of food freshness, which is the most ancient role of the human sense of smell, is still a challenge for compact and inexpensive electronic nose devices. Fast, sensitive, and reusable sensors are long-awaited in the food industry to replace slow, labor-intensive, and expensive bacteriological methods. In this work, we present microbiological verification of a novel approach to food quality monitoring and spoilage detection using an electronic nose based on organic field-effect transistors (OFETs) and its application for distinguishing products. The compact device presented is able to detect spoilage-related gases as early as at the 4 × 10 4 CFU g –1 bacteria count level, which is 2 orders of magnitude below the safe consumption threshold. Cross-selective sensor array based on OFETs with metalloporphyrin receptors were made on a single substrate using solution processing leading to a low production cost. Moreover, machine learning methods applied to the sensor array response allowed us to compare spoilage profiles and separate them by the type of food: pork, chicken, fish, or milk. The approach presented can be used to monitor food spoilage and distinguish different products with an affordable and portable device.",
+    "cited_by_count": 40,
+    "type": "article",
+    "is_retracted": false,
+    "open_access": {
+      "is_oa": true,
+      "oa_status": "gold",
+      "oa_url": "https://pubs.acs.org/doi/pdf/10.1021/acsomega.2c06386",
+      "any_repository_has_fulltext": true
+    },
+    "openalex_id": "https://openalex.org/W4317801847"
+  },
+  {
+    "doi": "10.1016/j.sbsr.2024.100685",
+    "title": "Application of a handheld electronic nose for real-time poultry freshness assessment",
+    "year": 2024,
+    "publication_date": "2024-08-01",
+    "journal": "Sensing and Bio-Sensing Research",
+    "authors": [
+      "Patrick Ferrier",
+      "Yvonne Spethmann",
+      "Birte Claussen",
+      "Lawrence Nsubuga",
+      "Tatiana Lisbôa Marcondes",
+      "Simon Høegh",
+      "Tugbars Heptaskin",
+      "Christian Wiechmann",
+      "Horst‐Günter Rubahn",
+      "Roana de Oliveira Hansen"
+    ],
+    "abstract": "Meat and fish are the most resource-demanding food products with a high carbon footprint. However, worldwide, tons of meat and fish products that are still safe to consume are discarded as waste due to uncertainty about their freshness. This study evaluates the application of a newly developed electronic nose (e-nose) to assess the freshness level of chicken and turkey under regular processing conditions. The device, comprising a micro-cantilever sensor functionalized with a binder selective to the freshness biomarker cadaverine, is crucial in reducing this waste. Upon exposure to cadaverine, the sensor resonance frequency changes as a function of analyte concentration. Standard cadaverine concentrations are measured by High-Performance Liquid Chromatography (HPLC) and associated with the shelf-life estimation determined by sensory and microbial evaluations during an 18-day storage period (5 °C). The findings show that the sensory panel evaluates the meat as unsuitable between days 7 and 9, while bacterial data shows high bacterial levels after day 4. HPLC and e-nose data show increasing cadaverine levels after day 4, correlating well with the bacterial count. The data calibrates the electronic nose, demonstrating its potential as a shelf-life prediction tool, which can assist human sensorial evaluation and significantly reduce food waste.",
+    "cited_by_count": 15,
+    "type": "article",
+    "is_retracted": false,
+    "open_access": {
+      "is_oa": true,
+      "oa_status": "gold",
+      "oa_url": "https://doi.org/10.1016/j.sbsr.2024.100685",
+      "any_repository_has_fulltext": true
+    },
+    "openalex_id": "https://openalex.org/W4402301386"
+  },
+  {
+    "doi": "10.3390/foods14193424",
+    "title": "Machine Learning for Quality Control in the Food Industry: A Review",
+    "year": 2025,
+    "publication_date": "2025-10-04",
+    "journal": "Foods",
+    "authors": [
+      "Konstantinos G. Liakos",
+      "Vassilis Athanasiadis",
+      "Eleni Bozinou",
+      "Stavros I. Lalas"
+    ],
+    "abstract": "The increasing complexity of modern food production demands advanced solutions for quality control (QC), safety monitoring, and process optimization. This review systematically explores recent advancements in machine learning (ML) for QC across six domains: Food Quality Applications; Defect Detection and Visual Inspection Systems; Ingredient Optimization and Nutritional Assessment; Packaging-Sensors and Predictive QC; Supply Chain-Traceability and Transparency and Food Industry Efficiency; and Industry 4.0 Models. Following a PRISMA-based methodology, a structured search of the Scopus database using thematic Boolean keywords identified 124 peer-reviewed publications (2005-2025), from which 25 studies were selected based on predefined inclusion and exclusion criteria, methodological rigor, and innovation. Neural networks dominated the reviewed approaches, with ensemble learning as a secondary method, and supervised learning prevailing across tasks. Emerging trends include hyperspectral imaging, sensor fusion, explainable AI, and blockchain-enabled traceability. Limitations in current research include domain coverage biases, data scarcity, and underexplored unsupervised and hybrid methods. Real-world implementation challenges involve integration with legacy systems, regulatory compliance, scalability, and cost-benefit trade-offs. The novelty of this review lies in combining a transparent PRISMA approach, a six-domain thematic framework, and Industry 4.0/5.0 integration, providing cross-domain insights and a roadmap for robust, transparent, and adaptive QC systems in the food industry.",
+    "cited_by_count": 73,
+    "type": "article",
+    "is_retracted": false,
+    "open_access": {
+      "is_oa": true,
+      "oa_status": "gold",
+      "oa_url": "https://www.mdpi.com/2304-8158/14/19/3424/pdf?version=1759581888",
+      "any_repository_has_fulltext": true
+    },
+    "openalex_id": "https://openalex.org/W4414862208"
+  },
+  {
+    "doi": "10.1038/s41467-023-36017-x",
+    "title": "Smartphone-based platforms implementing microfluidic detection with image-based artificial intelligence",
+    "year": 2023,
+    "publication_date": "2023-03-11",
+    "journal": "Nature Communications",
+    "authors": [
+      "Bangfeng Wang",
+      "Yiwei Li",
+      "Mengfan Zhou",
+      "Yulong Han",
+      "Mingyu Zhang",
+      "Zhaolong Gao",
+      "Zetai Liu",
+      "Peng Chen",
+      "Wei Xiao Du",
+      "Xingcai Zhang",
+      "Xiaojun Feng",
+      "Bi‐Feng Liu"
+    ],
+    "abstract": "The frequent outbreak of global infectious diseases has prompted the development of rapid and effective diagnostic tools for the early screening of potential patients in point-of-care testing scenarios. With advances in mobile computing power and microfluidic technology, the smartphone-based mobile health platform has drawn significant attention from researchers developing point-of-care testing devices that integrate microfluidic optical detection with artificial intelligence analysis. In this article, we summarize recent progress in these mobile health platforms, including the aspects of microfluidic chips, imaging modalities, supporting components, and the development of software algorithms. We document the application of mobile health platforms in terms of the detection objects, including molecules, viruses, cells, and parasites. Finally, we discuss the prospects for future development of mobile health platforms.",
+    "cited_by_count": 262,
+    "type": "article",
+    "is_retracted": false,
+    "open_access": {
+      "is_oa": true,
+      "oa_status": "gold",
+      "oa_url": "https://www.nature.com/articles/s41467-023-36017-x.pdf",
+      "any_repository_has_fulltext": true
+    },
+    "openalex_id": "https://openalex.org/W4323925779"
+  },
+  {
+    "doi": "10.3390/agronomy13020401",
+    "title": "Utilisation of Deep Learning with Multimodal Data Fusion for Determination of Pineapple Quality Using Thermal Imaging",
+    "year": 2023,
+    "publication_date": "2023-01-30",
+    "journal": "Agronomy",
+    "authors": [
+      "Maimunah Mohd Ali",
+      "Norhashila Hashim",
+      "Samsuzana Abd Aziz",
+      "Ola Lasekan"
+    ],
+    "abstract": "Fruit quality is an important aspect in determining the consumer preference in the supply chain. Thermal imaging was used to determine different pineapple varieties according to the physicochemical changes of the fruit by means of the deep learning method. Deep learning has gained attention in fruit classification and recognition in unimodal processing. This paper proposes a multimodal data fusion framework for the determination of pineapple quality using deep learning methods based on the feature extraction acquired from thermal imaging. Feature extraction was selected from the thermal images that provided a correlation with the quality attributes of the fruit in developing the deep learning models. Three different types of deep learning architectures, including ResNet, VGG16, and InceptionV3, were built to develop the multimodal data fusion framework for the classification of pineapple varieties based on the concatenation of multiple features extracted by the robust networks. The multimodal data fusion coupled with powerful convolutional neural network architectures can remarkably distinguish different pineapple varieties. The proposed multimodal data fusion framework provides a reliable determination of fruit quality that can improve the recognition accuracy and the model performance up to 0.9687. The effectiveness of multimodal deep learning data fusion and thermal imaging has huge potential in monitoring the real-time determination of physicochemical changes of fruit.",
+    "cited_by_count": 27,
+    "type": "article",
+    "is_retracted": false,
+    "open_access": {
+      "is_oa": true,
+      "oa_status": "gold",
+      "oa_url": "https://www.mdpi.com/2073-4395/13/2/401/pdf?version=1675059365",
+      "any_repository_has_fulltext": true
+    },
+    "openalex_id": "https://openalex.org/W4318482582"
+  },
+  {
+    "doi": "10.3390/s23156986",
+    "title": "Multimodal Federated Learning: A Survey",
+    "year": 2023,
+    "publication_date": "2023-08-06",
+    "journal": "Sensors",
+    "authors": [
+      "Liwei Che",
+      "Jiaqi Wang",
+      "Yao Zhou",
+      "Fenglong Ma"
+    ],
+    "abstract": "Federated learning (FL), which provides a collaborative training scheme for distributed data sources with privacy concerns, has become a burgeoning and attractive research area. Most existing FL studies focus on taking unimodal data, such as image and text, as the model input and resolving the heterogeneity challenge, i.e., the challenge of non-identical distribution (non-IID) caused by a data distribution imbalance related to data labels and data amount. In real-world applications, data are usually described by multiple modalities. However, to the best of our knowledge, only a handful of studies have been conducted to improve system performance utilizing multimodal data. In this survey paper, we identify the significance of this emerging research topic of multimodal federated learning (MFL) and present a literature review on the state-of-art MFL methods. Furthermore, we categorize multimodal federated learning into congruent and incongruent multimodal federated learning based on whether all clients possess the same modal combinations. We investigate the feasible application tasks and related benchmarks for MFL. Lastly, we summarize the promising directions and fundamental challenges in this field for future research.",
+    "cited_by_count": 111,
+    "type": "article",
+    "is_retracted": false,
+    "open_access": {
+      "is_oa": true,
+      "oa_status": "gold",
+      "oa_url": "https://www.mdpi.com/1424-8220/23/15/6986/pdf?version=1691315220",
+      "any_repository_has_fulltext": true
+    },
+    "openalex_id": "https://openalex.org/W4385615086"
+  }
+]

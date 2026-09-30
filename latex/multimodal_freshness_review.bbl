@@ -1,0 +1,441 @@
+\begin{thebibliography}{45}
+\providecommand{\natexlab}[1]{#1}
+\providecommand{\url}[1]{\texttt{#1}}
+\expandafter\ifx\csname urlstyle\endcsname\relax
+  \providecommand{\doi}[1]{doi: #1}\else
+  \providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi
+
+\bibitem[Abdar et~al.(2021)Abdar, Pourpanah, Hussain, Rezazadegan, Liu,
+  Ghavamzadeh, Fieguth, Cao, Khosravi, Acharya, Makarenkov, and
+  Nahavandi]{Abdar2021review}
+Moloud Abdar, Farhad Pourpanah, Sadiq Hussain, Dana Rezazadegan, Li~Liu,
+  Mohammad Ghavamzadeh, Paul Fieguth, Xiaochun Cao, Abbas Khosravi, U.~Rajendra
+  Acharya, Vladimir Makarenkov, and Saeid Nahavandi.
+\newblock A review of uncertainty quantification in deep learning: Techniques,
+  applications and challenges.
+\newblock \emph{Information Fusion}, 76:\penalty0 243--297, 2021.
+\newblock ISSN 1566-2535.
+\newblock \doi{10.1016/j.inffus.2021.05.008}.
+
+\bibitem[Acosta et~al.(2022)Acosta, Falcone, Rajpurkar, and
+  Topol]{Acosta2022multimodal}
+Julián~N. Acosta, Guido~J. Falcone, Pranav Rajpurkar, and Eric~J. Topol.
+\newblock Multimodal biomedical {AI}.
+\newblock \emph{Nature Medicine}, 28\penalty0 (9):\penalty0 1773--1784, 2022.
+\newblock ISSN 1078-8956.
+\newblock \doi{10.1038/s41591-022-01981-2}.
+
+\bibitem[Alzubaidi et~al.(2023)Alzubaidi, Bai, Al-Sabaawi, Santamaría,
+  Albahri, Al-dabbagh, Fadhel, Manoufali, Zhang, Al-Timemy, Duan, Abdullah,
+  Farhan, Lu, Gupta, Albu, Abbosh, and Gu]{Alzubaidi2023survey}
+Laith Alzubaidi, Jinshuai Bai, Aiman Al-Sabaawi, Jose Santamaría, A.~S.
+  Albahri, Bashar Sami~Nayyef Al-dabbagh, Mohammed~A. Fadhel, Mohamed
+  Manoufali, Jinglan Zhang, Ali~H. Al-Timemy, Ye~Duan, Amjed Abdullah, Laith
+  Farhan, Yi~Lu, Ashish Gupta, Felix Albu, Amin Abbosh, and Yuantong Gu.
+\newblock A survey on deep learning tools dealing with data scarcity:
+  definitions, challenges, solutions, tips, and applications.
+\newblock \emph{Journal of Big Data}, 10\penalty0 (1), 2023.
+\newblock ISSN 2196-1115.
+\newblock \doi{10.1186/s40537-023-00727-2}.
+\newblock Article number and pages were not assigned in the Crossref record.
+
+\bibitem[Anisimov et~al.(2023)Anisimov, Abramov, Gaidarzhi, Kaplun, Agina, and
+  Ponomarenko]{Anisimov2023food}
+Daniil~S. Anisimov, Anton~A. Abramov, Victoria~P. Gaidarzhi, Darya~S. Kaplun,
+  Elena~V. Agina, and Sergey~A. Ponomarenko.
+\newblock Food freshness measurements and product distinguishing by a portable
+  electronic nose based on organic field-effect transistors.
+\newblock \emph{ACS Omega}, 8\penalty0 (5):\penalty0 4649--4654, 2023.
+\newblock ISSN 2470-1343.
+\newblock \doi{10.1021/acsomega.2c06386}.
+
+\bibitem[Attallah(2023)]{Attallah2023multitask}
+Omneya Attallah.
+\newblock Multitask deep learning-based pipeline for gas leakage detection via
+  e-nose and thermal imaging multimodal fusion.
+\newblock \emph{Chemosensors}, 11\penalty0 (7):\penalty0 364, 2023.
+\newblock ISSN 2227-9040.
+\newblock \doi{10.3390/chemosensors11070364}.
+
+\bibitem[Balım et~al.(2025)Balım, Olgun, and Çalışan]{Balm2025leveraging}
+Caner Balım, Nevzat Olgun, and Mücahit Çalışan.
+\newblock Leveraging feature fusion of image features and laser reflectance for
+  automated fish freshness classification.
+\newblock \emph{Sensors}, 25\penalty0 (14):\penalty0 4374, 2025.
+\newblock ISSN 1424-8220.
+\newblock \doi{10.3390/s25144374}.
+
+\bibitem[Buratti et~al.(2025)Buratti, Grassi, Ubaldi, Pianezzola, and
+  Benedetti]{Buratti2025nose}
+Susanna Buratti, Silvia Grassi, Paolo~Giuseppe Ubaldi, Alberto Pianezzola, and
+  Simona Benedetti.
+\newblock E-nose based control charts for fish freshness evaluation.
+\newblock \emph{Food Research International}, 209:\penalty0 116313, 2025.
+\newblock ISSN 0963-9969.
+\newblock \doi{10.1016/j.foodres.2025.116313}.
+
+\bibitem[Che et~al.(2023)Che, Wang, Zhou, and Ma]{Che2023multimodal}
+Liwei Che, Jiaqi Wang, Yao Zhou, and Fenglong Ma.
+\newblock Multimodal federated learning: A survey.
+\newblock \emph{Sensors}, 23\penalty0 (15):\penalty0 6986, 2023.
+\newblock ISSN 1424-8220.
+\newblock \doi{10.3390/s23156986}.
+
+\bibitem[Chen et~al.(2026)Chen, Zhang, and Zhang]{Chen2026multimodal}
+Zhaojie Chen, Guangyu Zhang, and Fan Zhang.
+\newblock Multimodal {AI} for real-time food safety and quality: From sensors
+  to foundation models, edge deployment, and regulation.
+\newblock \emph{Food Science \& Nutrition}, 14\penalty0 (2), 2026.
+\newblock ISSN 2048-7177.
+\newblock \doi{10.1002/fsn3.71534}.
+\newblock Article number and pages were not assigned in the Crossref record.
+
+\bibitem[Chiang(2024)]{Chiang2024fish}
+Cheng-Ta Chiang.
+\newblock A fish meat freshness detector for iot-based seafood market
+  applications.
+\newblock \emph{IEEE Sensors Journal}, 24\penalty0 (2):\penalty0 2049--2054,
+  2024.
+\newblock ISSN 1530-437X.
+\newblock \doi{10.1109/jsen.2023.3335954}.
+
+\bibitem[Ferrier et~al.(2024)Ferrier, Spethmann, Claussen, Nsubuga, Marcondes,
+  Høegh, Heptaskin, Wiechmann, Rubahn, and
+  de~Oliveira~Hansen]{Ferrier2024application}
+Patrick Ferrier, Yvonne Spethmann, Birte Claussen, Lawrence Nsubuga,
+  Tatiana~Lisboa Marcondes, Simon Høegh, Tugbars Heptaskin, Christian
+  Wiechmann, Horst-Günter Rubahn, and Roana de~Oliveira~Hansen.
+\newblock Application of a handheld electronic nose for real-time poultry
+  freshness assessment.
+\newblock \emph{Sensing and Bio-Sensing Research}, 45:\penalty0 100685, 2024.
+\newblock ISSN 2214-1804.
+\newblock \doi{10.1016/j.sbsr.2024.100685}.
+
+\bibitem[Franceschelli et~al.(2021)Franceschelli, Berardinelli, Dabbou, Ragni,
+  and Tartagni]{Franceschelli2021sensing}
+Leonardo Franceschelli, Annachiara Berardinelli, Sihem Dabbou, Luigi Ragni, and
+  Marco Tartagni.
+\newblock Sensing technology for fish freshness and safety: A review.
+\newblock \emph{Sensors}, 21\penalty0 (4):\penalty0 1373, 2021.
+\newblock ISSN 1424-8220.
+\newblock \doi{10.3390/s21041373}.
+
+\bibitem[Garillos-Manliguez and Chiang(2021)]{GarillosManliguez2021multimodal}
+Cinmayii~A. Garillos-Manliguez and John~Y. Chiang.
+\newblock Multimodal deep learning and visible-light and hyperspectral imaging
+  for fruit maturity estimation.
+\newblock \emph{Sensors}, 21\penalty0 (4):\penalty0 1288, 2021.
+\newblock ISSN 1424-8220.
+\newblock \doi{10.3390/s21041288}.
+
+\bibitem[Hamidy et~al.(2025)Hamidy, Kuvvetli, Sakarya, Özkütük, and
+  Özoğul]{Hamidy2025deep}
+Sakhi~Mohammad Hamidy, Yusuf Kuvvetli, Yetkin Sakarya, Serya~Tülin Özkütük,
+  and Yesim Özoğul.
+\newblock Deep learning-based prediction of fish freshness and purchasability
+  using multi-angle image data.
+\newblock \emph{Foods}, 15\penalty0 (1):\penalty0 68, 2025.
+\newblock ISSN 2304-8158.
+\newblock \doi{10.3390/foods15010068}.
+
+\bibitem[Hardy et~al.(2024)Hardy, Moser, Haughey, and Elliott]{Hardy2024does}
+Mike Hardy, Bernadette Moser, Simon~A. Haughey, and Christopher~T. Elliott.
+\newblock Does the fish rot from the head? hyperspectral imaging and machine
+  learning for the evaluation of fish freshness.
+\newblock \emph{Chemometrics and Intelligent Laboratory Systems}, 245:\penalty0
+  105059, 2024.
+\newblock ISSN 0169-7439.
+\newblock \doi{10.1016/j.chemolab.2023.105059}.
+
+\bibitem[Hasan et~al.(2024)Hasan, Vasker, Hossain, Bhuiyan, Biswas, and
+  Ahmmad~Rashid]{Hasan2024framework}
+Mahamudul Hasan, Nishat Vasker, Md~Miskat Hossain, Md~Ismail Bhuiyan, Joy
+  Biswas, and Mohammad~Rifat Ahmmad~Rashid.
+\newblock Framework for fish freshness detection and rotten fish removal in
+  bangladesh using mask r–cnn method with robotic arm and fisheye analysis.
+\newblock \emph{Journal of Agriculture and Food Research}, 16:\penalty0 101139,
+  2024.
+\newblock ISSN 2666-1543.
+\newblock \doi{10.1016/j.jafr.2024.101139}.
+
+\bibitem[Ivanov et~al.(2025)Ivanov, Wilk-Jakubowski, Ciopiński, Pawlik,
+  Wilk-Jakubowski, and Mihalev]{Ivanov2025modern}
+Stefan Ivanov, Jacek~Łukasz Wilk-Jakubowski, Leszek Ciopiński, Łukasz
+  Pawlik, Grzegorz Wilk-Jakubowski, and Georgi Mihalev.
+\newblock Modern trends in the application of electronic nose systems: A
+  review.
+\newblock \emph{Applied Sciences}, 15\penalty0 (19):\penalty0 10776, 2025.
+\newblock ISSN 2076-3417.
+\newblock \doi{10.3390/app151910776}.
+
+\bibitem[Kashani~Zadeh et~al.(2023)Kashani~Zadeh, Hardy, Sueker, Li, Tzouchas,
+  MacKinnon, Bearman, Haughey, Akhbardeh, Baek, Hwang, Qin, Tabb, Hellberg,
+  Ismail, Reza, Vasefi, Kim, Tavakolian, and Elliott]{KashaniZadeh2023rapid}
+Hossein Kashani~Zadeh, Mike Hardy, Mitchell Sueker, Yicong Li, Angelis
+  Tzouchas, Nicholas MacKinnon, Gregory Bearman, Simon~A. Haughey, Alireza
+  Akhbardeh, Insuck Baek, Chansong Hwang, Jianwei Qin, Amanda~M. Tabb,
+  Rosalee~S. Hellberg, Shereen Ismail, Hassan Reza, Fartash Vasefi, Moon Kim,
+  Kouhyar Tavakolian, and Christopher~T. Elliott.
+\newblock Rapid assessment of fish freshness for multiple supply-chain nodes
+  using multi-mode spectroscopy and fusion-based artificial intelligence.
+\newblock \emph{Sensors}, 23\penalty0 (11):\penalty0 5149, 2023.
+\newblock ISSN 1424-8220.
+\newblock \doi{10.3390/s23115149}.
+
+\bibitem[Kline et~al.(2022)Kline, Wang, Li, Dennis, Hutch, Xu, Wang, Cheng, and
+  Luo]{Kline2022multimodal}
+Adrienne Kline, Hanyin Wang, Yikuan Li, Saya Dennis, Meghan Hutch, Zhenxing Xu,
+  Fei Wang, Feixiong Cheng, and Yuan Luo.
+\newblock Multimodal machine learning in precision health: A scoping review.
+\newblock \emph{npj Digital Medicine}, 5\penalty0 (1), 2022.
+\newblock ISSN 2398-6352.
+\newblock \doi{10.1038/s41746-022-00712-8}.
+\newblock Article number and pages were not assigned in the Crossref record.
+
+\bibitem[Li et~al.(2023)Li, Wang, Zhang, Li, Wang, Yi, Zhu, Xu, and
+  Li]{Li2023prediction}
+Hongyue Li, Yang Wang, Jiaxin Zhang, Xuepeng Li, Jinxiang Wang, Shumin Yi,
+  Wenhui Zhu, Yongxia Xu, and Jianrong Li.
+\newblock Prediction of the freshness of horse mackerel (trachurus japonicus)
+  using e-nose, e-tongue, and colorimeter based on biochemical indexes analyzed
+  during frozen storage of whole fish.
+\newblock \emph{Food Chemistry}, 402:\penalty0 134325, 2023.
+\newblock ISSN 0308-8146.
+\newblock \doi{10.1016/j.foodchem.2022.134325}.
+
+\bibitem[Liakos et~al.(2025)Liakos, Athanasiadis, Bozinou, and
+  Lalas]{Liakos2025machine}
+Konstantinos~G. Liakos, Vassilis Athanasiadis, Eleni Bozinou, and Stavros~I.
+  Lalas.
+\newblock Machine learning for quality control in the food industry: A review.
+\newblock \emph{Foods}, 14\penalty0 (19):\penalty0 3424, 2025.
+\newblock ISSN 2304-8158.
+\newblock \doi{10.3390/foods14193424}.
+
+\bibitem[Liu et~al.(2024)Liu, Wei, Yoon, Ni, Wang, Liu, Wang, Wang, and
+  Guo]{Liu2024development}
+Yang Liu, Chaojie Wei, Seung-Chul Yoon, Xinzhi Ni, Wei Wang, Yizhe Liu, Daren
+  Wang, Xiaorong Wang, and Xiaohuan Guo.
+\newblock Development of multimodal fusion technology for tomato maturity
+  assessment.
+\newblock \emph{Sensors}, 24\penalty0 (8):\penalty0 2467, 2024.
+\newblock ISSN 1424-8220.
+\newblock \doi{10.3390/s24082467}.
+
+\bibitem[Lun et~al.(2025)Lun, Wu, Dong, and Wu]{Lun2025deep}
+Zhichen Lun, Xiaohong Wu, Jiajun Dong, and Bin Wu.
+\newblock Deep learning-enhanced spectroscopic technologies for food quality
+  assessment: Convergence and emerging frontiers.
+\newblock \emph{Foods}, 14\penalty0 (13):\penalty0 2350, 2025.
+\newblock ISSN 2304-8158.
+\newblock \doi{10.3390/foods14132350}.
+
+\bibitem[Madhubhashini et~al.(2024)Madhubhashini, Liyanage, Alahakoon, and
+  Liyanage]{Madhubhashini2024current}
+M.~Nerandi Madhubhashini, Chamara~P. Liyanage, Amali~U. Alahakoon, and
+  Rumesh~Prasanga Liyanage.
+\newblock Current applications and future trends of artificial senses in fish
+  freshness determination: A review.
+\newblock \emph{Journal of Food Science}, 89\penalty0 (1):\penalty0 33--50,
+  2024.
+\newblock ISSN 0022-1147.
+\newblock \doi{10.1111/1750-3841.16865}.
+
+\bibitem[Mavani et~al.(2022)Mavani, Ali, Othman, Hussain, Hashim, and
+  Rahman]{Mavani2022application}
+Nidhi~Rajesh Mavani, Jarinah~Mohd Ali, Suhaili Othman, M.~A. Hussain, Haslaniza
+  Hashim, and Norliza~Abd Rahman.
+\newblock Application of artificial intelligence in food industry—a
+  guideline.
+\newblock \emph{Food Engineering Reviews}, 14\penalty0 (1):\penalty0 134--175,
+  2022.
+\newblock ISSN 1866-7910.
+\newblock \doi{10.1007/s12393-021-09290-z}.
+
+\bibitem[Mei et~al.(2024)Mei, Peng, Wang, Zhou, Zhao, Zhang, and
+  Yang]{Mei2024overcoming}
+Haixia Mei, Jingyi Peng, Tao Wang, Tingting Zhou, Hongran Zhao, Tong Zhang, and
+  Zhi Yang.
+\newblock Overcoming the limits of cross-sensitivity: Pattern recognition
+  methods for chemiresistive gas sensor array.
+\newblock \emph{Nano-Micro Letters}, 16\penalty0 (1), 2024.
+\newblock ISSN 2311-6706.
+\newblock \doi{10.1007/s40820-024-01489-z}.
+\newblock Article number and pages were not assigned in the Crossref record.
+
+\bibitem[Modesti et~al.(2022)Modesti, Tonacci, Sansone, Billeci, Bellincontro,
+  Cacopardo, Sanmartin, Taglieri, and Venturi]{Modesti2022senses}
+Margherita Modesti, Alessandro Tonacci, Francesco Sansone, Lucia Billeci,
+  Andrea Bellincontro, Gloria Cacopardo, Chiara Sanmartin, Isabella Taglieri,
+  and Francesca Venturi.
+\newblock E-senses, panel tests and wearable sensors: A teamwork for food
+  quality assessment and prediction of consumer’s choices.
+\newblock \emph{Chemosensors}, 10\penalty0 (7):\penalty0 244, 2022.
+\newblock ISSN 2227-9040.
+\newblock \doi{10.3390/chemosensors10070244}.
+
+\bibitem[Mohd~Ali et~al.(2023)Mohd~Ali, Hashim, Abd~Aziz, and
+  Lasekan]{MohdAli2023utilisation}
+Maimunah Mohd~Ali, Norhashila Hashim, Samsuzana Abd~Aziz, and Ola Lasekan.
+\newblock Utilisation of deep learning with multimodal data fusion for
+  determination of pineapple quality using thermal imaging.
+\newblock \emph{Agronomy}, 13\penalty0 (2):\penalty0 401, 2023.
+\newblock ISSN 2073-4395.
+\newblock \doi{10.3390/agronomy13020401}.
+
+\bibitem[Pan et~al.(2025)Pan, Wang, Zhou, Zhou, Chen, Liu, Li, Liu, Zeng,
+  Jiang, Yuan, and Wu]{Pan2025smartphone}
+Yixuan Pan, Yujie Wang, Yuzhe Zhou, Jiacheng Zhou, Manxi Chen, Dongling Liu,
+  Feier Li, Can Liu, Mingwan Zeng, Dongjing Jiang, Xiangyang Yuan, and Hejun
+  Wu.
+\newblock A smartphone-based non-destructive multimodal deep learning approach
+  using ph-sensitive pitaya peel films for real-time fish freshness detection.
+\newblock \emph{Foods}, 14\penalty0 (10):\penalty0 1805, 2025.
+\newblock ISSN 2304-8158.
+\newblock \doi{10.3390/foods14101805}.
+
+\bibitem[Prasetyo et~al.(2022)Prasetyo, Purbaningtyas, Adityo, Suciati, and
+  Fatichah]{Prasetyo2022combining}
+Eko Prasetyo, Rani Purbaningtyas, Raden~Dimas Adityo, Nanik Suciati, and
+  Chastine Fatichah.
+\newblock Combining mobilenetv1 and depthwise separable convolution bottleneck
+  with expansion for classifying the freshness of fish eyes.
+\newblock \emph{Information Processing in Agriculture}, 9\penalty0
+  (4):\penalty0 485--496, 2022.
+\newblock ISSN 2214-3173.
+\newblock \doi{10.1016/j.inpa.2022.01.002}.
+
+\bibitem[Saha and Manickavasagan(2021)]{Saha2021machine}
+Dhritiman Saha and Annamalai Manickavasagan.
+\newblock Machine learning techniques for analysis of hyperspectral images to
+  determine quality of food products: A review.
+\newblock \emph{Current Research in Food Science}, 4:\penalty0 28--44, 2021.
+\newblock ISSN 2665-9271.
+\newblock \doi{10.1016/j.crfs.2021.01.002}.
+
+\bibitem[Sanislav et~al.(2025)Sanislav, Mois, Zeadally, Folea, Radoni, and
+  Al-Suhaimi]{Sanislav2025comprehensive}
+Teodora Sanislav, George~D. Mois, Sherali Zeadally, Silviu Folea, Tudor~C.
+  Radoni, and Ebtesam~A. Al-Suhaimi.
+\newblock A comprehensive review on sensor-based electronic nose for food
+  quality and safety.
+\newblock \emph{Sensors}, 25\penalty0 (14):\penalty0 4437, 2025.
+\newblock ISSN 1424-8220.
+\newblock \doi{10.3390/s25144437}.
+
+\bibitem[Setyagraha et~al.(2025)Setyagraha, Nurqamaradillah, Hermawan, Pratama,
+  Novamizanti, and Wijaya]{Setyagraha2025portable}
+Muhammad Rafi~Mahfuz Setyagraha, Hurul~Aini Nurqamaradillah, Laksamana~Mikhail
+  Hermawan, Nyoman~Raflly Pratama, Ledya Novamizanti, and Dedy~Rahman Wijaya.
+\newblock A portable real-time electronic nose for evaluating seafood freshness
+  using machine learning.
+\newblock \emph{IEEE Access}, 13:\penalty0 99583--99602, 2025.
+\newblock ISSN 2169-3536.
+\newblock \doi{10.1109/access.2025.3577128}.
+
+\bibitem[Wang et~al.(2024)Wang, Liu, Wei, He, Kong, and Zhang]{Wang2024review}
+Baichuan Wang, Kang Liu, Guangfen Wei, Aixiang He, Weifu Kong, and Xiaoshuan
+  Zhang.
+\newblock A review of advanced sensor technologies for aquatic products
+  freshness assessment in cold chain logistics.
+\newblock \emph{Biosensors}, 14\penalty0 (10):\penalty0 468, 2024.
+\newblock ISSN 2079-6374.
+\newblock \doi{10.3390/bios14100468}.
+
+\bibitem[Wang et~al.(2023)Wang, Li, Zhou, Han, Zhang, Gao, Liu, Chen, Du,
+  Zhang, Feng, and Liu]{Wang2023smartphone}
+Bangfeng Wang, Yiwei Li, Mengfan Zhou, Yulong Han, Mingyu Zhang, Zhaolong Gao,
+  Zetai Liu, Peng Chen, Wei Du, Xingcai Zhang, Xiaojun Feng, and Bi-Feng Liu.
+\newblock Smartphone-based platforms implementing microfluidic detection with
+  image-based artificial intelligence.
+\newblock \emph{Nature Communications}, 14\penalty0 (1), 2023.
+\newblock ISSN 2041-1723.
+\newblock \doi{10.1038/s41467-023-36017-x}.
+\newblock Article number and pages were not assigned in the Crossref record.
+
+\bibitem[Wijaya et~al.(2023)Wijaya, Syarwan, Nugraha, Ananda, Fahrudin, and
+  Handayani]{Wijaya2023seafood}
+Dedy~Rahman Wijaya, Nailatul~Fadhilah Syarwan, Muhammad~Agus Nugraha, Dahliar
+  Ananda, Tora Fahrudin, and Rini Handayani.
+\newblock Seafood quality detection using electronic nose and machine learning
+  algorithms with hyperparameter optimization.
+\newblock \emph{IEEE Access}, 11:\penalty0 62484--62495, 2023.
+\newblock ISSN 2169-3536.
+\newblock \doi{10.1109/access.2023.3286980}.
+
+\bibitem[Wu et~al.(2023)Wu, Debliquy, and Zhang]{Wu2023metal}
+Kaidi Wu, Marc Debliquy, and Chao Zhang.
+\newblock Metal–oxide–semiconductor resistive gas sensors for fish
+  freshness detection.
+\newblock \emph{Comprehensive Reviews in Food Science and Food Safety},
+  22\penalty0 (2):\penalty0 913--945, 2023.
+\newblock ISSN 1541-4337.
+\newblock \doi{10.1111/1541-4337.13095}.
+
+\bibitem[Xu et~al.(2023)Xu, Zhu, and Clifton]{Xu2023multimodal}
+Peng Xu, Xiatian Zhu, and David~A. Clifton.
+\newblock Multimodal learning with transformers: A survey.
+\newblock \emph{IEEE Transactions on Pattern Analysis and Machine
+  Intelligence}, 45\penalty0 (10):\penalty0 12113--12132, 2023.
+\newblock ISSN 0162-8828.
+\newblock \doi{10.1109/tpami.2023.3275156}.
+
+\bibitem[Ye et~al.(2021)Ye, Liu, and Li]{Ye2021recent}
+Zhenyi Ye, Yuan Liu, and Qiliang Li.
+\newblock Recent progress in smart electronic nose technologies enabled with
+  machine learning methods.
+\newblock \emph{Sensors}, 21\penalty0 (22):\penalty0 7620, 2021.
+\newblock ISSN 1424-8220.
+\newblock \doi{10.3390/s21227620}.
+
+\bibitem[Yildiz et~al.(2024)Yildiz, Yasin, and Koklu]{Yildiz2024fisheye}
+Muslume~Beyza Yildiz, Elham~Tahsin Yasin, and Murat Koklu.
+\newblock Fisheye freshness detection using common deep learning algorithms and
+  machine learning methods with a developed mobile application.
+\newblock \emph{European Food Research and Technology}, 250\penalty0
+  (7):\penalty0 1919--1932, 2024.
+\newblock ISSN 1438-2377.
+\newblock \doi{10.1007/s00217-024-04493-0}.
+
+\bibitem[Yudhana et~al.(2022)Yudhana, Umar, and Saputra]{Yudhana2022fish}
+Anton Yudhana, Rusydi Umar, and Sabarudin Saputra.
+\newblock Fish freshness identification using machine learning: Performance
+  comparison of k-nn and naïve bayes classifier.
+\newblock \emph{Journal of Computing Science and Engineering}, 16\penalty0
+  (3):\penalty0 153--164, 2022.
+\newblock ISSN 1976-4677.
+\newblock \doi{10.5626/jcse.2022.16.3.153}.
+
+\bibitem[Zhang et~al.(2022)Zhang, Sun, Sang, Jia, and Ou]{Zhang2022emerging}
+Zhepeng Zhang, Ying Sun, Shangyuan Sang, Lingling Jia, and Changrong Ou.
+\newblock Emerging approach for fish freshness evaluation: Principle,
+  application and challenges.
+\newblock \emph{Foods}, 11\penalty0 (13):\penalty0 1897, 2022.
+\newblock ISSN 2304-8158.
+\newblock \doi{10.3390/foods11131897}.
+
+\bibitem[Zhu et~al.(2021)Zhu, Spachos, Pensini, and Plataniotis]{Zhu2021deep}
+Lili Zhu, Petros Spachos, Erica Pensini, and Konstantinos~N. Plataniotis.
+\newblock Deep learning and machine vision for food processing: A survey.
+\newblock \emph{Current Research in Food Science}, 4:\penalty0 233--249, 2021.
+\newblock ISSN 2665-9271.
+\newblock \doi{10.1016/j.crfs.2021.03.009}.
+
+\bibitem[Zong et~al.(2025)Zong, Wu, Yang, Li, Tao, and Mao]{Zong2025smart}
+Boyang Zong, Shufang Wu, Yuehong Yang, Qiuju Li, Tian Tao, and Shun Mao.
+\newblock Smart gas sensors: Recent developments and future prospective.
+\newblock \emph{Nano-Micro Letters}, 17\penalty0 (1), 2025.
+\newblock ISSN 2311-6706.
+\newblock \doi{10.1007/s40820-024-01543-w}.
+\newblock Article number and pages were not assigned in the Crossref record.
+
+\bibitem[Özdoğan et~al.(2021)Özdoğan, Lin, and Sun]{Ozdogan2021rapid}
+Gözde Özdoğan, Xiaohui Lin, and Da-Wen Sun.
+\newblock Rapid and noninvasive sensory analyses of food products by
+  hyperspectral imaging: Recent application developments.
+\newblock \emph{Trends in Food Science \& Technology}, 111:\penalty0 151--165,
+  2021.
+\newblock ISSN 0924-2244.
+\newblock \doi{10.1016/j.tifs.2021.02.044}.
+
+\end{thebibliography}

@@ -1,0 +1,106 @@
+{
+  "filepath": "review/references.bib",
+  "total_entries": 45,
+  "valid_entries": 45,
+  "errors": [],
+  "warnings": [
+    {
+      "type": "missing_recommended_field",
+      "field": "pages",
+      "severity": "medium",
+      "message": "Entry Chen2026multimodal: Missing recommended field \"pages\"",
+      "entry": "Chen2026multimodal"
+    },
+    {
+      "type": "missing_recommended_field",
+      "field": "pages",
+      "severity": "medium",
+      "message": "Entry Zong2025smart: Missing recommended field \"pages\"",
+      "entry": "Zong2025smart"
+    },
+    {
+      "type": "missing_recommended_field",
+      "field": "pages",
+      "severity": "medium",
+      "message": "Entry Mei2024overcoming: Missing recommended field \"pages\"",
+      "entry": "Mei2024overcoming"
+    },
+    {
+      "type": "missing_recommended_field",
+      "field": "pages",
+      "severity": "medium",
+      "message": "Entry Alzubaidi2023survey: Missing recommended field \"pages\"",
+      "entry": "Alzubaidi2023survey"
+    },
+    {
+      "type": "missing_recommended_field",
+      "field": "pages",
+      "severity": "medium",
+      "message": "Entry Wang2023smartphone: Missing recommended field \"pages\"",
+      "entry": "Wang2023smartphone"
+    },
+    {
+      "type": "missing_recommended_field",
+      "field": "pages",
+      "severity": "medium",
+      "message": "Entry Kline2022multimodal: Missing recommended field \"pages\"",
+      "entry": "Kline2022multimodal"
+    }
+  ],
+  "duplicates": [],
+  "venue_standard_checked": null,
+  "min_count_checked": null,
+  "manuscript_results": {
+    "checked": true,
+    "manuscript_filepath": "latex/multimodal_freshness_review.tex",
+    "cited_keys": [
+      "KashaniZadeh2023rapid",
+      "Madhubhashini2024current",
+      "Setyagraha2025portable",
+      "Saha2021machine",
+      "Modesti2022senses",
+      "Acosta2022multimodal",
+      "GarillosManliguez2021multimodal",
+      "Pan2025smartphone",
+      "Hamidy2025deep",
+      "Lun2025deep",
+      "Yildiz2024fisheye",
+      "Mavani2022application",
+      "Abdar2021review",
+      "Chiang2024fish",
+      "Zhang2022emerging",
+      "Zong2025smart",
+      "Balm2025leveraging",
+      "Li2023prediction",
+      "MohdAli2023utilisation",
+      "Mei2024overcoming",
+      "Zhu2021deep",
+      "Hasan2024framework",
+      "Che2023multimodal",
+      "Attallah2023multitask",
+      "Liu2024development",
+      "Franceschelli2021sensing",
+      "Xu2023multimodal",
+      "Ozdogan2021rapid",
+      "Ferrier2024application",
+      "Anisimov2023food",
+      "Ivanov2025modern",
+      "Kline2022multimodal",
+      "Buratti2025nose",
+      "Wang2023smartphone",
+      "Hardy2024does",
+      "Alzubaidi2023survey",
+      "Yudhana2022fish",
+      "Wu2023metal",
+      "Wijaya2023seafood",
+      "Wang2024review",
+      "Ye2021recent",
+      "Prasetyo2022combining",
+      "Chen2026multimodal",
+      "Sanislav2025comprehensive",
+      "Liakos2025machine"
+    ],
+    "missing_keys": [],
+    "unused_keys": []
+  }
+}

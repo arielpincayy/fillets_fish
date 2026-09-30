@@ -1,0 +1,5 @@
+dataset/
+graphify-out/
+nohup.out
+.venv
+opencode.json

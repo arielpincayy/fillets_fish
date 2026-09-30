@@ -1,0 +1,437 @@
+\documentclass[11pt]{article}
+
+\usepackage[a4paper,margin=1in]{geometry}
+\usepackage{fontspec}
+\setmainfont{TeX Gyre Termes}
+\usepackage{polyglossia}
+\setdefaultlanguage{english}
+\usepackage{microtype}
+\usepackage{amsmath,amssymb}
+\usepackage{booktabs}
+\usepackage{longtable}
+\usepackage{tabularx}
+\usepackage{array}
+\usepackage{enumitem}
+\usepackage{graphicx}
+\usepackage{xcolor}
+\usepackage{tikz}
+\usetikzlibrary{arrows.meta,positioning,fit,backgrounds,shapes.geometric}
+\usepackage{caption}
+\usepackage{float}
+\usepackage{natbib}
+\usepackage[hidelinks]{hyperref}
+
+\definecolor{navy}{HTML}{16324F}
+\definecolor{teal}{HTML}{1E6F73}
+\definecolor{pale}{HTML}{EAF4F4}
+\definecolor{gold}{HTML}{F2C14E}
+\definecolor{graytext}{HTML}{4B5563}
+
+\hypersetup{
+  pdftitle={Multimodal Classification of Fish Freshness},
+  pdfauthor={Project review},
+  colorlinks=true,
+  linkcolor=navy,
+  citecolor=teal,
+  urlcolor=teal
+}
+
+\newcolumntype{Y}{>{\raggedright\arraybackslash}X}
+\newcolumntype{P}[1]{>{\raggedright\arraybackslash}p{#1}}
+
+\title{\textbf{Multimodal Classification of Fish Freshness:}\\[2pt]\large A 2021--2026 Review of Imaging, Gas Sensing, Spectroscopy, and Microbiological Ground Truth}
+\author{Project-focused state-of-the-art review}
+\date{26 September 2026}
+
+\begin{document}
+\maketitle
+
+\begin{abstract}
+Freshness classification for fish is a heterogeneous sensing problem: external appearance, volatile compounds, spectral signatures, temperature and humidity, and microbiological status describe different parts of the spoilage process. This review examines published journal literature from 2021 through 2026 on multimodal classification and its closest enabling technologies, with emphasis on fish and seafood freshness, electronic noses, imaging and spectroscopy, and food-quality data fusion. Forty-five journal articles were identified through OpenAlex and Europe PMC searches and verified against DOI metadata from Crossref; posted-content records and preprints were excluded. The literature indicates that multimodal systems can outperform individual modalities when the signals are complementary and are measured on the same biological units. Representative studies report gains from visible--near-infrared, short-wave infrared and fluorescence fusion; image plus laser reflectance; image plus pH-indicator chemistry; and e-nose plus thermal imaging. However, headline accuracy is not sufficient evidence of generalizable spoilage detection. The dominant risks are small and clustered datasets, temporal confounding, non-independent repeated measurements, sensor drift, domain shift, and labels that are assigned at storage-day level rather than to the measured specimen. These issues are especially consequential for the project dataset reviewed here, which contains images and sensor time series from longitudinally monitored trout fillets but microbiological measurements from a separate destructive subset. The review therefore frames the project as a day-level or cohort-state classification problem unless paired specimen-level microbiology is added. It proposes a leakage-resistant evaluation protocol, unimodal and fusion ablations, temporal and fish-level grouping, calibration and uncertainty reporting, and a staged path from feature fusion to modality-aware deep learning.
+\end{abstract}
+
+\noindent\textbf{Keywords:} fish freshness; seafood spoilage; multimodal learning; sensor fusion; electronic nose; computer vision; hyperspectral imaging; total viable count; food quality; data leakage
+
+\section{Introduction}
+
+Fish freshness is a high-value but difficult classification target because spoilage is not a single observable event. Microbial growth changes volatile compounds, surface chemistry, color, texture, and sometimes temperature and moisture conditions, but these changes are neither simultaneous nor spatially uniform. Conventional microbiology is informative but destructive and slow, while sensory inspection is fast but subjective. Reviews published since 2021 describe a broad transition toward non-destructive sensing, including computer vision, hyperspectral imaging, electronic noses, electronic tongues, chemical indicators, and portable devices \citep{Franceschelli2021sensing,Zhang2022emerging,Madhubhashini2024current,Wang2024review}.
+
+The practical question is not simply whether a classifier can separate two classes in a controlled dataset. It is whether heterogeneous signals can be aligned to a defensible reference state, fused without introducing leakage, and transported across fish, batches, storage conditions, species, and instruments. Multimodal learning is attractive because one modality can compensate for the blind spots of another. Images describe external morphology and color; gas sensors measure volatile patterns; spectroscopy can capture chemical or water-related information; and microbiology provides a reference for microbial status. The same complementarity also creates methodological hazards: modalities may be collected at different times, from different specimens, or with different sampling densities.
+
+This review was motivated by a project dataset containing images, MQ gas-sensor time series, temperature and humidity, and total viable count (TVC) measurements from rainbow trout fillets. Its central problem is binary Fresh versus Spoiled classification, with a threshold based on storage-day microbiological status. The project documentation states that the 59 longitudinally monitored fillets and the 21 destructive microbiological samples are different biological specimens and are linked only through storage day. That structure changes the scientific claim that the data can support. A model trained on images or sensor sessions cannot be described as predicting individual-fillets' microbiological ground truth unless specimen-level microbiology is available.
+
+The aims of this review are therefore to:
+\begin{enumerate}[leftmargin=*,itemsep=2pt]
+  \item establish a theoretical framework for multimodal freshness classification;
+  \item synthesize the 2021--2026 state of the art in fish and food-quality sensing;
+  \item identify what is genuinely supported by published evidence versus what remains a deployment claim; and
+  \item translate the evidence into a leakage-resistant modeling and evaluation plan for the project dataset.
+\end{enumerate}
+
+\section{Review scope and search method}
+
+\subsection{Review type and research questions}
+
+This is a narrative state-of-the-art review with a reproducible search record, rather than a meta-analysis. It addresses four questions:
+\begin{enumerate}[leftmargin=*,itemsep=2pt]
+  \item Which image, gas, spectral, chemical, and microbiological modalities are used to assess fish or food freshness?
+  \item When does multimodal fusion improve classification or prediction relative to unimodal baselines?
+  \item Which data and validation assumptions determine whether a reported performance estimate is credible?
+  \item How should these principles be adapted to a small, longitudinal trout dataset with day-level microbiological labels?
+\end{enumerate}
+
+\subsection{Search and eligibility}
+
+Searches were conducted on 26 September 2026. OpenAlex was used for multidisciplinary discovery and Europe PMC for a complementary life-science search. Crossref DOI records were used for metadata verification. The main query blocks were: \texttt{fish freshness}; \texttt{seafood freshness}; \texttt{electronic nose fish}; \texttt{food multimodal sensor image fusion}; \texttt{fish freshness multimodal classification image electronic nose}; and \texttt{multimodal learning sensor image fusion classification}. The supplementary Europe PMC queries combined fish or seafood freshness with machine learning, deep learning, electronic nose, imaging, or multimodal terms and restricted publication years to 2021--2026.
+
+Records were eligible when they met all of the following criteria: (i) publication date from 1 January 2021 through 26 September 2026; (ii) journal-article metadata in Crossref and/or article metadata in OpenAlex; (iii) relevance to fish/seafood freshness, food spoilage or quality sensing, multimodal fusion, e-nose/gas sensing, imaging/spectroscopy, or a directly transferable validation issue; and (iv) sufficient title, abstract, and bibliographic metadata for interpretation. Preprints, posted-content records, retracted articles, conference-only records, and papers with no meaningful relationship to food-quality sensing or multimodal classification were excluded. The final evidence set contains 45 articles: 8 from 2021, 8 from 2022, 11 from 2023, 8 from 2024, 9 from 2025, and 1 from 2026.
+
+This selection is not a claim that the literature is exhaustive. OpenAlex relevance search is broad and can retrieve adjacent machine-learning literature; therefore, the final set was narrowed by title and abstract relevance and then verified by DOI metadata. The review does not assign a formal risk-of-bias score to every article because the included literature spans reviews, sensor engineering, computer vision, and applied machine-learning studies with incompatible designs and outcomes.
+
+\section{Theoretical framework}
+
+\subsection{Freshness is a latent, time-dependent construct}
+
+Freshness is often treated as a binary label, but biologically it is a latent state evolving over time. A useful abstraction is
+\begin{equation}
+  y_{i,t} = h\left(M_{i,t}, V_{i,t}, C_{i,t}, E_{i,t}\right) + \epsilon_{i,t},
+\end{equation}
+where $M$ denotes microbial state, $V$ volatile compounds, $C$ external or internal chemical and physical properties, $E$ environmental exposure, and $\epsilon$ measurement and biological variation. Images, gas sensors, spectroscopy, and TVC are noisy projections of this state rather than interchangeable measurements of the same variable.
+
+This distinction matters for classification. A label such as ``spoiled'' may mean a regulatory threshold, a sensory rejection point, a microbial threshold, a consumer acceptability boundary, or a storage-day proxy. These are related but not identical targets. The fish-freshness reviews emphasize that no single freshness indicator fully captures quality across products and storage conditions \citep{Franceschelli2021sensing,Zhang2022emerging,Madhubhashini2024current}. A strong review of a model must therefore specify the estimand: microbial status, storage stage, sensory acceptability, shelf-life remaining, or a composite quality index.
+
+\subsection{Modality complementarity and fusion}
+
+Let $x_i^{(m)}$ represent modality $m$ for specimen or session $i$. A multimodal classifier can be written as
+\begin{equation}
+  z_i^{(m)} = f_m\left(x_i^{(m)}\right), \qquad \hat{y}_i = g\left(z_i^{(1)},\ldots,z_i^{(M)}\right).
+\end{equation}
+The encoders $f_m$ can be handcrafted feature extraction, a CNN, a temporal model, a spectral model, or a transformer. The fusion operator $g$ can concatenate features, attend across modalities, combine calibrated probabilities, or learn a joint embedding.
+
+Three fusion regimes are useful:
+\begin{itemize}[leftmargin=*,itemsep=2pt]
+  \item \textbf{Early fusion:} concatenate raw or low-level features before modeling. This is simple and can work for synchronized tabular features, but scale, missingness, and modality dominance must be controlled.
+  \item \textbf{Intermediate fusion:} learn modality-specific representations and combine them before the prediction head. This is attractive for images plus sensor sequences because each encoder can respect its own structure.
+  \item \textbf{Late fusion:} train separate models and combine predictions or calibrated probabilities. It is robust to missing modalities and makes unimodal ablations transparent, but it may fail to learn cross-modal interactions.
+\end{itemize}
+
+The multimodal-transformer literature generalizes intermediate fusion using cross-attention and joint token representations, while also highlighting alignment, missing modalities, computational cost, and dataset scale as open problems \citep{Xu2023multimodal}. Reviews in biomedical AI reach similar conclusions: multimodal models can represent complex systems better, but only when data provenance, synchronization, and population shift are addressed \citep{Acosta2022multimodal,Kline2022multimodal}.
+
+\subsection{Ground truth alignment is part of the model}
+
+Fusion is scientifically interpretable only when the measurements refer to the same unit and target. Three alignments should be recorded explicitly:
+\begin{enumerate}[leftmargin=*,itemsep=2pt]
+  \item \textbf{Entity alignment:} the image, sensor session, and microbiological sample must describe the same fillet or a declared shared batch.
+  \item \textbf{Temporal alignment:} measurements must refer to a common storage time or a defined time window.
+  \item \textbf{Target alignment:} the label must represent the outcome that the model is claimed to predict.
+\end{enumerate}
+
+If only storage-day alignment exists, the valid target may be ``day-level microbiological state'' rather than ``individual fillet spoilage.'' A day-level label propagated to many observations also creates a hierarchical design: observations are nested in day, fillet portion, fish, batch, and possibly acquisition session. Ignoring that hierarchy inflates effective sample size and can make a model memorize time or specimen identity.
+
+\begin{figure}[H]
+\centering
+\begin{tikzpicture}[
+  node distance=7mm and 8mm,
+  box/.style={draw=navy,rounded corners,fill=pale,align=center,minimum height=11mm,text width=31mm,font=\small},
+  target/.style={draw=teal,rounded corners,fill=white,align=center,minimum height=12mm,text width=37mm,font=\small},
+  arrow/.style={-{Latex[length=2.5mm]},thick,draw=teal}
+]
+\node[box] (img) {RGB / RAW images\\flesh and skin};
+\node[box,right=of img] (gas) {MQ gas sensors\\temperature and humidity};
+\node[box,right=of gas] (ref) {TVC / sensory /\\chemical reference};
+\node[target,below=of gas] (align) {Entity, time, and target alignment\\before fusion};
+\node[box,below left=of align] (enc1) {Image encoder\\CNN or ViT};
+\node[box,below right=of align] (enc2) {Temporal sensor encoder\\statistics, TCN, or LSTM};
+\node[target,below=18mm of align] (fusion) {Fusion model\\early, intermediate, late, or attention};
+\node[target,below=of fusion] (decision) {Class, probability, calibration,\\and uncertainty};
+\draw[arrow] (img) -- (align);
+\draw[arrow] (gas) -- (align);
+\draw[arrow] (ref) -- (align);
+\draw[arrow] (align) -- (enc1);
+\draw[arrow] (align) -- (enc2);
+\draw[arrow] (enc1) -- (fusion);
+\draw[arrow] (enc2) -- (fusion);
+\draw[arrow] (fusion) -- (decision);
+\end{tikzpicture}
+\caption{A scientifically defensible multimodal pipeline. Fusion is downstream of specimen identity, timing, and target definition; it is not a substitute for those alignments.}
+\label{fig:framework}
+\end{figure}
+
+\section{Modalities for fish-freshness classification}
+
+\subsection{Gas sensing and electronic noses}
+
+Electronic noses usually combine an array of partially selective sensors with pattern recognition. This is useful for fish because microbial metabolism produces volatile bases and other odor-active compounds. The main strengths are speed, non-destructive operation, portability, and compatibility with regression or classification. The main limitations are cross-sensitivity, humidity and temperature dependence, sensor drift, chamber effects, and the difference between a sensor response and a calibrated chemical concentration.
+
+The 2021 review of smart e-noses identifies feature extraction, model choice, and drift compensation as the core machine-learning problems \citep{Ye2021recent}. More recent reviews emphasize the same issue in food applications: high controlled-laboratory accuracy does not automatically translate to long-term or multisite reliability, and adaptive models plus standardized acquisition protocols are needed \citep{Sanislav2025comprehensive,Ivanov2025modern,Zong2025smart}. Pattern-recognition method selection is particularly important for chemiresistive arrays because cross-sensitivity is intrinsic to the sensing mechanism rather than a minor nuisance \citep{Mei2024overcoming}.
+
+Fish and seafood studies illustrate both the opportunity and the evaluation problem. An e-nose study combined seven optimized machine-learning algorithms with classification and microbial-population regression, reporting strong performance for both tasks \citep{Wijaya2023seafood}. A portable multi-species system selected four sensors from an initial pool and reported near-perfect cross-validation metrics with XGBoost \citep{Setyagraha2025portable}. These results are promising for embedded devices, but data-point-level cross-validation can be optimistic when many time points come from the same session, fish, or storage day. Conversely, a distribution-chain study used control charts and external microbial confirmation across five seafood products, a design more closely connected to deployment \citep{Buratti2025nose}.
+
+E-nose signals should therefore be modeled as structured time series, not only as independent scalar rows. Useful descriptors include baseline-normalized response, slope, peak, area under the response curve, recovery behavior, inter-sensor ratios, and uncertainty across repeated sessions. The project uses MQ sensors as raw ADC responses with no mathematical baseline correction or certified gas calibration. That is acceptable for pattern classification if the target population and acquisition protocol are fixed, but the signals should be described as sensor-response features, not concentrations of named gases.
+
+\subsection{Images, multispectral imaging, and hyperspectral imaging}
+
+RGB images provide inexpensive access to color, texture, surface moisture, mucus, eye appearance, and visible defects. Conventional machine-learning pipelines remain useful when data are small and feature semantics matter; deep transfer learning becomes attractive when the image variation is complex. Fish-eye studies demonstrate the full range of reported outcomes: handcrafted RGB/GLCM features with k-nearest neighbors reached high performance in one controlled dataset \citep{Yudhana2022fish}, whereas an efficient MobileNet-derived architecture reported 63.21\% accuracy on another fish-eye task \citep{Prasetyo2022combining}. A later study combining VGG19 feature extraction with ANN classification reported 77.3\% on its dataset \citep{Yildiz2024fisheye}. These differences are not contradictory evidence about the algorithms; they show the sensitivity of performance to data collection, label definition, species, storage protocol, and split design.
+
+Hyperspectral imaging adds wavelength-resolved information to spatial structure. Reviews emphasize that wavelength selection can reduce computational cost and improve real-time feasibility, while spectral--spatial integration is often more informative than either representation alone \citep{Saha2021machine,Ozdogan2021rapid}. In fish, a salmon study used 400--1000 nm hyperspectral data and found that spoilage was spatially heterogeneous; average day-classification accuracy was 77.0\% using optimized k-nearest neighbors, with a spectral band near 600 nm acting as a discriminator \citep{Hardy2024does}. This is directly relevant to flesh and skin images: a single global average may hide local spoilage regions.
+
+Multi-view and multimodal imaging can improve robustness, but they do not remove biological dependence. A multi-angle fish study trained thousands of models from only ten fish and reported 0.9894 accuracy for purchasability with DenseNet121 \citep{Hamidy2025deep}. The result is useful as a proof of concept, but it also illustrates why the fish, not the image, should define the independent split. In a neighboring fruit task, visible and hyperspectral images were fused to classify six maturity stages with F1 scores up to 0.90 \citep{GarillosManliguez2021multimodal}; the design provides a transferable template for complementary external and spectral signals.
+
+\subsection{Chemical indicators and microbiological references}
+
+Chemical indicators, pH-sensitive films, volatile-basic-nitrogen sensors, and smartphone imaging provide a bridge between chemistry and vision. A 2025 fish study combined smartphone images of a pH-sensitive pitaya-peel film with pH, TVB-N, and TVC data and used a temporal convolutional network plus context-aware gated fusion; the reported accuracy was 99.61\% with low smartphone inference time \citep{Pan2025smartphone}. Such systems are conceptually close to the project because an image modality and a chemical-response modality are fused. However, the central validation question remains whether chemical and microbiological measurements are paired at the specimen level and whether the split prevents near-duplicate images or time points from crossing partitions.
+
+TVC is a valuable reference for microbial growth but is destructive and samples only a portion of the biological state. A portable OFET e-nose study used microbiological verification and detected spoilage-related gases at a bacterial count below a stated safety threshold, while machine learning separated products by food type \citep{Anisimov2023food}. A handheld poultry e-nose study calibrated a cadaverine-sensitive device against HPLC, sensory evaluation, and microbial measurements over storage \citep{Ferrier2024application}. These examples support a useful hierarchy: microbiology and validated chemical assays anchor the target; non-destructive sensors estimate the target; the classifier should report uncertainty when those anchors disagree.
+
+\section{State of the art in multimodal food-quality classification}
+
+\subsection{Direct fish and seafood evidence}
+
+The strongest direct evidence for multimodal fish freshness comes from studies that compare fused modalities with their unimodal counterparts. Kashani Zadeh et al. combined VIS-NIR, SWIR, and fluorescence spectra on multiple fish types and storage nodes. The fused system achieved 95\% accuracy, improving over the individual modes by 9--26 percentage points \citep{KashaniZadeh2023rapid}. This is an important benchmark because the modalities measure partly distinct optical and chemical information, and the comparison is explicit.
+
+Balım et al. combined deep image features with single-wavelength laser reflectance for three-level mackerel freshness classification and reported 88.44\% average accuracy \citep{Balm2025leveraging}. Pan et al. integrated smartphone images with a pH-sensitive film and chemical time series, reporting 99.61\% accuracy in a real-time prototype \citep{Pan2025smartphone}. Together, these studies support the hypothesis that fusion helps when the second modality captures information that is not recoverable from appearance alone. They do not establish that the same gains will hold under a different species, camera, lighting field, sensor chamber, or microbiological sampling design.
+
+Other studies use multiple artificial senses rather than deep image--sensor fusion. Horse mackerel freshness has been modeled using e-nose, e-tongue, colorimeter, and biochemical indexes during frozen storage \citep{Li2023prediction}. The broader review literature describes this combination as a way to cover odor, taste-related electrochemical response, surface color, and biochemical status, but it also notes that multimodal systems increase calibration and data-integration demands \citep{Madhubhashini2024current,Modesti2022senses}.
+
+\subsection{Transferable food-quality fusion studies}
+
+The neighboring food-quality literature provides controlled demonstrations of the fusion principle. A tomato maturity system combined color imaging, visible--near-infrared spectroscopy, and haptic sensing. Feature fusion with a neural classifier outperformed the single modalities and reached 99.4\% accuracy for maturity classification \citep{Liu2024development}. A pineapple-quality study concatenated features from thermal images using multiple deep architectures and reached 0.9687 performance for variety classification \citep{MohdAli2023utilisation}. These studies suggest that modality-specific encoders followed by a compact fusion head are a reasonable first model for small datasets.
+
+Attallah et al. provide a particularly relevant architecture for image plus gas-sensor data. Their pipeline used CNNs for multiple sensor/image streams, bidirectional LSTM processing, and intermediate or multitask fusion. Multitask fusion exceeded intermediate fusion in the gas-leakage setting, with reported accuracies of 99.25\% and 98.47\%, respectively \citep{Attallah2023multitask}. The application is not food freshness, but the sensor physics and temporal--spatial mismatch are analogous. For the project, the transferable lesson is not the exact architecture; it is the need to compare fusion placement and to model temporal sensor structure rather than flattening all readings.
+
+\subsection{Methods, small data, and uncertainty}
+
+Multimodal systems are attractive precisely because single modalities are incomplete, yet fusion also increases parameter count and opportunities for overfitting. A scoping review of multimodal machine learning found that early fusion was common and that relatively few studies compared multimodal models directly with unimodal baselines or described deployment pathways \citep{Kline2022multimodal}. The transformer survey identifies alignment, cross-modal interaction, pretraining, missing modalities, and computational cost as persistent challenges \citep{Xu2023multimodal}. These observations argue for a staged protocol: start with interpretable feature-level and late-fusion baselines, then add deep cross-modal interaction only if the grouped evaluation supports it.
+
+Small data are a structural problem for this project. The data-scarcity literature recommends transfer learning, self-supervision, augmentation, architecture constraints, and explicit attention to class imbalance and generalization \citep{Alzubaidi2023survey}. Food-AI guidance similarly emphasizes that computer vision, e-nose, electronic tongue, and near-infrared systems should be integrated with attention to process context and measurement limitations \citep{Mavani2022application,Zhu2021deep,Liakos2025machine}. High accuracy from a random image split is not evidence of transportability when the same fish, camera setup, day, or sensor baseline appears in both training and testing.
+
+Uncertainty should be treated as an output. Deep-learning uncertainty methods include Bayesian approximations and ensemble approaches and are relevant to noisy labels, distribution shift, and safety-related decisions \citep{Abdar2021review}. For freshness classification, a model should be able to abstain or flag ``uncertain'' when modalities disagree, when the sensor response is outside its calibration envelope, or when an image comes from an unseen fish or acquisition condition.
+
+\begin{table}[H]
+\centering
+\caption{Selected evidence most directly informing the project. Reported metrics are study-specific and are not directly comparable across datasets.}
+\label{tab:evidence}
+\scriptsize
+\begin{tabularx}{\textwidth}{P{0.19\textwidth}P{0.18\textwidth}P{0.25\textwidth}Y}
+\toprule
+\textbf{Study} & \textbf{Modalities} & \textbf{Task and setting} & \textbf{Main contribution and caution}\\
+\midrule
+Kashani Zadeh et al. (2023) & VIS-NIR, SWIR, fluorescence & Fish freshness across supply-chain nodes & Fusion reached 95\% accuracy and exceeded each single mode. Multi-species and repeated measurement design still require grouped validation.\\
+Hardy et al. (2024) & Hyperspectral imaging & Salmon storage-day/spoilage analysis & Shows spatially heterogeneous spoilage and a spectral discriminator near 600 nm; global image averages may be insufficient.\\
+Balım et al. (2025) & RGB image features plus laser reflectance & Three-level mackerel freshness & Feature fusion reached 88.44\%; directly supports low-cost complementary sensing.\\
+Pan et al. (2025) & Smartphone image, pH film, pH, TVB-N, TVC & Real-time fish freshness & Temporal and context-aware fusion reached 99.61\%; specimen pairing and external validation remain decisive.\\
+Li et al. (2023) & E-nose, e-tongue, colorimeter, biochemical indexes & Horse mackerel freshness & Demonstrates artificial-sense complementarity; calibration and target definition must be explicit.\\
+Wijaya et al. (2023) & E-nose and machine learning & Seafood classification and microbial regression & Shows e-nose utility for classification and regression; time-point independence must be checked.\\
+Buratti et al. (2025) & Portable e-nose plus microbial testing & Five seafood products in distribution & Control limits were externally validated, making it more deployment-oriented than random splits alone.\\
+Setyagraha et al. (2025) & Four gas sensors plus ML & Multi-species seafood freshness and shelf life & Strong reported XGBoost metrics; large time-series data can inflate performance if sessions are not grouped.\\
+Liu et al. (2024) & Color image, NIR spectrum, haptics & Tomato maturity and uneven ripening & Feature fusion outperformed unimodal models; a useful template for external, chemical, and physical signals.\\
+Attallah (2023) & E-nose and thermal imaging & Gas detection with temporal modeling & Compares intermediate and multitask fusion; demonstrates the value of modality-specific temporal encoders.\\
+Garillos-Manliguez and Chiang (2021) & Visible and hyperspectral imaging & Six-stage fruit maturity & Multimodal imaging reached up to 0.90 F1; transferable to RGB plus spectral representations.\\
+Kline et al. (2022) & Multimodal ML literature & Scoping review & Finds early fusion common and unimodal comparisons underreported; supports ablation-first evaluation.\\
+Xu et al. (2023) & Multimodal transformer methods & Methodological survey & Formalizes cross-modal attention, alignment, missing modalities, and scaling challenges.\\
+\bottomrule
+\end{tabularx}
+\end{table}
+
+\section{Mapping the literature to the project dataset}
+
+\subsection{Dataset structure}
+
+The local project contains seven days of refrigerated storage at approximately 4\,$^{\circ}$C for rainbow trout. Twenty fish yielded 80 fillet portions. Fifty-nine portions were monitored longitudinally with images; 21 other portions were destructively analyzed for TVC, with three microbiological samples per storage day. Image data include 820 retained RAW files and 820 JPEG derivatives, with flesh and skin surfaces. Sensor data include 210 sessions, 30 per day, each with 120 one-Hz time points and seven channels: MQ3, MQ5, MQ9, MQ135, MQ137, temperature, and humidity.
+
+The local exploratory analysis reports a day-level TVC mean from 4.14 log CFU/g on day 1 to 7.86 log CFU/g on day 7. The binary status is Fresh for days 1--5 and Spoiled for days 6--7. Aggregated sensor features show strong correlations with the day-level TVC value, especially MQ135 ($r\approx0.96$), MQ137 ($r\approx0.95$), MQ9 ($r\approx0.94$), MQ3 ($r\approx0.92$), and MQ5 ($r\approx0.89$). These are useful exploratory associations, not specimen-level causal or predictive validation, because the TVC value is attached by storage day and is not measured on the same 59 image/sensor fillets.
+
+\begin{table}[H]
+\centering
+\caption{Project dataset profile and its implications for classification.}
+\label{tab:project}
+\small
+\begin{tabularx}{\textwidth}{P{0.25\textwidth}P{0.25\textwidth}Y}
+\toprule
+\textbf{Component} & \textbf{Observed structure} & \textbf{Implication for the review and model}\\
+\midrule
+Biological material & 20 fish, 80 portions; four portions per fish & Fish is a higher-level grouping variable; portions from one fish are not independent.\\
+Images & 59 longitudinal portions; flesh and skin; 820 RAW and 820 JPEG & Repeated images of the same portion must remain in one partition. Surface can be a modality or a paired view.\\
+Gas sensors & 210 sessions, 30/day; five MQ channels plus temperature and humidity; 120 points/session & Use temporal summaries and sequence models, but preserve session and fillet identity. Raw ADC values are sensor responses, not calibrated gas concentrations.\\
+Microbiology & 21 destructive portions; three TVC observations/day & Small reference sample; uncertainty of day means is substantial.\\
+Label linkage & Fresh/Spoiled assigned to storage day, not matched to image/sensor specimen & Primary claim should be day-level or cohort-state classification unless paired microbiology is collected.\\
+Main leakage risk & Same portion observed over seven days; four portions from each fish & Split by original fish, not image, sensor file, or fillet portion.\\
+Main domain risks & One species, one farm, one campaign, sensor drift, variable session temperature & Report external validity limits and test temporal or batch holdouts.\\
+\bottomrule
+\end{tabularx}
+\end{table}
+
+\subsection{What the current data can and cannot establish}
+
+The dataset can support a proof-of-concept question: can multimodal signals acquired during refrigerated storage discriminate the observed storage-day states under a fish-grouped evaluation? It can also support modality-ablation questions: how much information is present in images, sensor summaries, sensor dynamics, or their fusion? It cannot, without additional paired sampling, establish that a particular photograph or sensor session has a measured TVC value or that the model predicts microbiological status for that individual fillet.
+
+The strongest current claim should therefore be phrased as: ``a multimodal model predicts the storage-day microbiological status proxy under a fish-grouped experimental protocol.'' A stronger claim such as ``the model predicts individual trout fillet spoilage'' would require synchronized, specimen-level microbiological or validated chemical/sensory labels. This distinction is not semantic; it determines the unit of analysis, the split, the valid sample size, and the interpretation of errors.
+
+\section{Recommended modeling and evaluation protocol}
+
+\subsection{Data unit, split, and estimand}
+
+The independent unit should be the original fish. All four portions, all longitudinal images, all sensor sessions, and all derived features from a fish must remain in the same partition. With only 20 fish, a single train/test split is unstable. A defensible primary design is grouped nested cross-validation, using fish as the group, with a leave-one-fish-out sensitivity analysis where feasible. A temporal holdout of the latest storage days should be reported separately, but it must not be treated as independent biological replication because all fish were observed across the same campaign.
+
+The primary binary outcome should be declared before model fitting. If the label remains day-level, use a hierarchical notation such as $Y_d$ for storage-day status and avoid interpreting all observations from day $d$ as independent confirmations of individual spoilage. If a day-level label is assigned to many sessions, evaluate performance at the day or grouped-fish level in addition to the row level.
+
+\subsection{Baseline ladder}
+
+The review recommends the following minimum ladder:
+\begin{enumerate}[leftmargin=*,itemsep=2pt]
+  \item majority-class and storage-day-only baselines;
+  \item sensor-only model using predeclared summaries and a regularized logistic model, random forest, or gradient boosting model;
+  \item image-only model using color/texture features and a frozen transfer-learning embedding;
+  \item sensor-sequence-only model using a small temporal convolution or recurrent model;
+  \item late fusion of calibrated unimodal probabilities;
+  \item intermediate fusion of image and sensor embeddings; and
+  \item optional attention or transformer fusion only after the simpler models have been evaluated without leakage.
+\end{enumerate}
+
+Each step must use identical fish-grouped folds. The main result should be the paired difference between fusion and the strongest unimodal baseline, with bootstrap or repeated-group confidence intervals, not the highest accuracy from an unpaired experiment.
+
+\subsection{Feature and preprocessing controls}
+
+For images, preserve the distinction between flesh and skin, document color/brightness augmentation, and avoid augmentations that change the biological label. For sensors, include within-session baseline features, slope, range, variability, and recovery descriptors, but do not estimate gas concentrations from uncalibrated MQ ADC values. Temperature and humidity should be treated both as potential nuisance variables and as candidate predictors; if they separate days, a model can exploit storage or chamber conditions rather than spoilage.
+
+All transformations that estimate population statistics must be fitted within the training fold. Feature scaling, PCA, image normalization parameters, sensor drift correction, feature selection, and oversampling must not use validation or test observations. If class weighting or synthetic augmentation is used, it must be applied only inside the training fold.
+
+\subsection{Metrics and uncertainty}
+
+Report balanced accuracy, macro-F1, sensitivity, specificity, AUROC, precision-recall AUC, calibration error, and a confusion matrix with denominators. Because the Spoiled class is smaller, accuracy alone is inadequate. Report metrics at the observation, fish, and storage-day levels where each is meaningful. Confidence intervals should respect grouping; a naive row-level bootstrap will overstate precision.
+
+An operational system should expose probability calibration and an abstention rule. A high-confidence prediction outside the training domain is more dangerous than a calibrated uncertain prediction. Bayesian hierarchical models or ensembles can quantify uncertainty, but uncertainty estimates must be checked under fish and time holdouts rather than only in-distribution validation.
+
+\begin{figure}[H]
+\centering
+\begin{tikzpicture}[
+  node distance=5mm and 5mm,
+  stagebox/.style={draw=navy,rounded corners,fill=pale,align=center,text width=34mm,minimum height=12mm,font=\small},
+  gate/.style={draw=teal,rounded corners,fill=white,align=center,text width=38mm,minimum height=13mm,font=\small},
+  arrow/.style={-{Latex[length=2.3mm]},thick,draw=teal}
+]
+\node[stagebox] (s1) {1. Define unit and target\\fish, portion, day, or session};
+\node[stagebox,right=of s1] (s2) {2. Grouped split\\by original fish};
+\node[stagebox,right=of s2] (s3) {3. Unimodal baselines\\and leakage audit};
+\node[gate,below=of s2] (s4) {4. Fusion ablation\\late before intermediate};
+\node[gate,below=of s3] (s5) {5. Temporal / batch holdout\\and calibration};
+\node[gate,below=of s4] (s6) {6. Error analysis\\modality disagreement};
+\node[gate,below=of s5] (s7) {7. External validation\\new fish, batch, or campaign};
+\draw[arrow] (s1) -- (s2);
+\draw[arrow] (s2) -- (s3);
+\draw[arrow] (s3) -- (s4);
+\draw[arrow] (s4) -- (s5);
+\draw[arrow] (s5) -- (s6);
+\draw[arrow] (s6) -- (s7);
+\end{tikzpicture}
+\caption{Recommended evidence ladder for this project. Fusion is evaluated only after the unit of inference and leakage controls are fixed.}
+\label{fig:evaluation}
+\end{figure}
+
+\subsection{Ablations that would be scientifically informative}
+
+The project should compare: flesh-only versus skin-only versus both surfaces; sensor means versus full time-series features; MQ-only versus MQ plus temperature/humidity; images plus sensors versus the strongest unimodal model; and day-level labels versus a regression target for the available TVC proxy. Additional analyses should test whether performance remains after removing explicit storage-day variables and whether performance is driven by temperature/humidity rather than spoilage-related signals. Modality dropout experiments can quantify whether the model fails gracefully when an image or sensor session is missing.
+
+\section{Research gaps and future directions}
+
+\subsection{Paired and longitudinal ground truth}
+
+The most important gap is not another fusion block; it is paired ground truth. Future campaigns should collect images, sensor responses, and microbiology from the same fillet portion or from a prespecified matched sampling design. Destructive sampling can be designed with parallel portions, but the correspondence and randomization must be recorded. Repeated TVC measurements and validated chemical markers would also allow the model to distinguish microbial status from storage-day effects.
+
+\subsection{Cross-species, cross-batch, and cross-device validation}
+
+Most application studies are controlled and often single-species. The 2026 review of multimodal food AI identifies limited multisite, multiseason, and public benchmark evidence as a persistent gap \citep{Chen2026multimodal}. A useful benchmark should hold out fish, storage batches, acquisition days, and ideally a complete campaign. Device changes, chamber ventilation, lighting, camera white balance, and sensor aging should be documented as domain-shift variables.
+
+\subsection{Standardized multimodal reporting}
+
+Future papers should report the independent unit, number of fish, number of portions, number of sessions, number of time points, label construction, specimen linkage, fold-generation algorithm, and whether preprocessing was fit within folds. They should report unimodal baselines, missing-modality behavior, calibration, and uncertainty. The food-quality ML literature increasingly calls for explainable, adaptive, and deployment-aware systems rather than isolated accuracy claims \citep{Liakos2025machine,Sanislav2025comprehensive,Lun2025deep}.
+
+\subsection{Interpretable fusion and decision support}
+
+An interpretable system could report separate evidence streams: a visual score, a volatile-response score, a temporal trend score, and a microbiological-proxy probability. Such decomposition would make it possible to identify disagreements, drift, and sensor failure. In a small dataset, a transparent late-fusion model may be more scientifically useful than a large end-to-end transformer. Foundation models and multimodal transformers are promising, but their use should be justified by independent validation, not by architectural novelty alone \citep{Xu2023multimodal,Chen2026multimodal}.
+
+\section{Discussion}
+
+Across the 2021--2026 literature, multimodal fusion is most convincing when four conditions coincide: the modalities are complementary; measurements are synchronized or correctly linked; the target is anchored by microbiology, chemistry, or a declared sensory standard; and the evaluation groups observations by the true independent unit. The direct fish evidence supports improvements from spectral fusion, image--laser fusion, and image--chemical fusion, while the e-nose literature supports portable non-destructive monitoring but repeatedly identifies drift, cross-sensitivity, and standardization as unresolved problems.
+
+The project dataset is well suited to a careful feasibility study. It contains enough repeated structure to compare images, sensor summaries, and temporal responses, and its exploratory analysis suggests that the MQ sensor array captures a strong storage-related signal. Yet the same repeated structure creates the main threat: the available microbiological label is a storage-day status derived from a separate destructive subset. If the project reports individual-fillets' microbiological classification without paired samples, it would overstate the evidence.
+
+The most defensible contribution is therefore methodological as well as predictive: demonstrate how a small multimodal food dataset can be analyzed with fish-level grouping, explicit modality ablations, temporal holdouts, label-alignment language, and uncertainty-aware reporting. The review literature suggests that this contribution would address a real gap. The field does not primarily need another model with a higher random-split accuracy; it needs datasets and evaluations that make accuracy transportable and scientifically interpretable.
+
+\section{Conclusions}
+
+Multimodal classification is a rational strategy for fish-freshness assessment because appearance, volatile responses, spectral information, and microbiological status are complementary observations of a changing latent process. The 2021--2026 literature provides several strong proof-of-concept examples, including multi-mode spectroscopy, image--laser fusion, smartphone chemical-indicator fusion, and e-nose systems validated against microbial measurements. The evidence is not yet sufficient to treat reported accuracy as universal because small controlled datasets, repeated observations, sensor drift, and indirect labels remain common.
+
+For the project reviewed here, the central methodological decision is to define the target honestly. With day-level linkage between non-destructive observations and a separate TVC subset, the primary task should be storage-day or cohort-state classification, not individual-fillets' TVC prediction. Fish-grouped partitions, unimodal baselines, late/intermediate fusion ablations, temporal holdouts, calibration, and paired future microbiology provide the shortest path from a promising dataset to a credible scientific result.
+
+\appendix
+\section{Search audit and included evidence}
+
+The included evidence was restricted to 2021--2026 journal articles. OpenAlex records were required to have article type and a non-retracted status; Crossref was used to verify DOI, journal, year, and publication type. Europe PMC was used as a complementary biomedical index and was filtered to the MED corpus for the supplementary searches, thereby excluding its preprint corpus. The selected DOI list and OpenAlex evidence export are retained with the project review materials in \texttt{review/selected\_dois.txt} and \texttt{review/selected\_evidence.json}.
+
+\begin{longtable}{P{0.06\textwidth}P{0.31\textwidth}P{0.16\textwidth}P{0.37\textwidth}}
+\caption{Thematic index of the 45 included journal articles. The full bibliographic records are in the reference list.}\label{tab:included}\\
+\toprule
+\textbf{Year} & \textbf{Study} & \textbf{Theme} & \textbf{Use in this review}\\
+\midrule
+\endfirsthead
+\toprule
+\textbf{Year} & \textbf{Study} & \textbf{Theme} & \textbf{Use in this review}\\
+\midrule
+\endhead
+2026 & Chen, Zhang, and Zhang \citep{Chen2026multimodal} & Food multimodal AI & Deployment, edge validation, regulation, and evidence gaps.\\
+2025 & Balım et al. \citep{Balm2025leveraging} & Fish fusion & Image plus laser-reflectance feature fusion.\\
+2025 & Pan et al. \citep{Pan2025smartphone} & Fish fusion & Smartphone image plus pH-film and chemical time series.\\
+2025 & Buratti et al. \citep{Buratti2025nose} & Fish e-nose & Control charts and microbial confirmation.\\
+2025 & Setyagraha et al. \citep{Setyagraha2025portable} & Seafood e-nose & Portable sensors, ML, classification, and regression.\\
+2025 & Hamidy et al. \citep{Hamidy2025deep} & Fish vision & Multi-angle imaging and transfer learning.\\
+2025 & Zong et al. \citep{Zong2025smart} & Gas sensors & Smart gas-sensor architecture and AI integration.\\
+2025 & Sanislav et al. \citep{Sanislav2025comprehensive} & Food e-nose & Review of drift, selectivity, and validation.\\
+2025 & Ivanov et al. \citep{Ivanov2025modern} & Food e-nose & Review of sensor design and ML trends.\\
+2025 & Lun et al. \citep{Lun2025deep} & Food spectroscopy & Deep learning and spectral fusion.\\
+2025 & Liakos et al. \citep{Liakos2025machine} & Food ML & QC, explainability, scarcity, and deployment.\\
+2024 & Madhubhashini et al. \citep{Madhubhashini2024current} & Fish artificial senses & Review of e-nose, e-tongue, e-eye, and trends.\\
+2024 & Hardy et al. \citep{Hardy2024does} & Fish hyperspectral & Spatially heterogeneous spoilage.\\
+2024 & Chiang \citep{Chiang2024fish} & Seafood sensing & IoT-oriented fish-meat freshness detector.\\
+2024 & Yildiz et al. \citep{Yildiz2024fisheye} & Fish vision & Deep features plus classical classifiers.\\
+2024 & Hasan et al. \citep{Hasan2024framework} & Fish vision/deployment & Mask R-CNN and robotic removal.\\
+2024 & Liu et al. \citep{Liu2024development} & Multimodal food & Color, NIR, and haptic maturity fusion.\\
+2024 & Mei et al. \citep{Mei2024overcoming} & Gas-sensor ML & Cross-sensitivity and pattern recognition.\\
+2024 & Wang et al. \citep{Wang2024review} & Aquatic sensors & Cold-chain freshness sensing review.\\
+2024 & Ferrier et al. \citep{Ferrier2024application} & E-nose validation & Handheld sensor with chemical and microbial references.\\
+2023 & Kashani Zadeh et al. \citep{KashaniZadeh2023rapid} & Fish fusion & VIS-NIR, SWIR, and fluorescence fusion.\\
+2023 & Wijaya et al. \citep{Wijaya2023seafood} & Seafood e-nose & ML classification and microbial regression.\\
+2023 & Li et al. \citep{Li2023prediction} & Fish artificial senses & E-nose, e-tongue, colorimeter, and biochemical indexes.\\
+2023 & Attallah \citep{Attallah2023multitask} & Sensor-image fusion & E-nose and thermal imaging with temporal fusion.\\
+2023 & Xu et al. \citep{Xu2023multimodal} & Multimodal methods & Transformer survey and open problems.\\
+2023 & Alzubaidi et al. \citep{Alzubaidi2023survey} & Small data & Transfer learning, SSL, imbalance, and generalization.\\
+2023 & Anisimov et al. \citep{Anisimov2023food} & E-nose validation & OFET e-nose with microbiological verification.\\
+2023 & Wang et al. \citep{Wang2023smartphone} & Portable AI & Smartphone and image-based AI platforms.\\
+2023 & Mohd Ali et al. \citep{MohdAli2023utilisation} & Multimodal food & Thermal-image feature fusion for pineapple quality.\\
+2023 & Che et al. \citep{Che2023multimodal} & Multimodal methods & Survey of multimodal federated learning.\\
+2022 & Zhang et al. \citep{Zhang2022emerging} & Fish freshness & Principles and challenges of freshness evaluation.\\
+2022 & Wu et al. \citep{Wu2023metal} & Fish gas sensing & Metal-oxide gas sensors for fish freshness.\\
+2022 & Yudhana et al. \citep{Yudhana2022fish} & Fish vision & k-NN and Naive Bayes on fish-eye images.\\
+2022 & Prasetyo et al. \citep{Prasetyo2022combining} & Fish vision & Lightweight CNN architecture for fish eyes.\\
+2022 & Modesti et al. \citep{Modesti2022senses} & Food artificial senses & E-senses, panels, wearables, and complementarity.\\
+2022 & Mavani et al. \citep{Mavani2022application} & Food AI & Guidance on AI and device integration.\\
+2022 & Acosta et al. \citep{Acosta2022multimodal} & Multimodal methods & Data, modeling, privacy, and deployment challenges.\\
+2022 & Kline et al. \citep{Kline2022multimodal} & Multimodal methods & Scoping review of fusion strategy and evidence gaps.\\
+2021 & Franceschelli et al. \citep{Franceschelli2021sensing} & Fish freshness & Sensing technologies and safety review.\\
+2021 & Ye et al. \citep{Ye2021recent} & E-nose ML & Feature extraction, modeling, and drift compensation.\\
+2021 & Saha and Manickavasagan \citep{Saha2021machine} & Food hyperspectral & ML for spectral--spatial food-quality analysis.\\
+2021 & Ozdogan et al. \citep{Ozdogan2021rapid} & Food hyperspectral & Non-invasive sensory analysis and real-time limits.\\
+2021 & Zhu et al. \citep{Zhu2021deep} & Food vision & Deep learning and machine vision survey.\\
+2021 & Garillos-Manliguez and Chiang \citep{GarillosManliguez2021multimodal} & Multimodal imaging & Visible plus hyperspectral fruit maturity.\\
+2021 & Abdar et al. \citep{Abdar2021review} & Uncertainty & Deep-learning uncertainty quantification.\\
+\end{longtable}
+
+\section{Limitations of this review}
+
+The review is constrained by database coverage, English-language interpretation, abstract-level screening for much of the literature, and the heterogeneity of application targets. Reported metrics were not pooled because species, storage protocols, sampling units, labels, and validation designs differ substantially. The review also relies on project documentation for the local dataset profile; any future manuscript should verify those counts and label-generation rules against the final data-release version.
+
+\bibliographystyle{plainnat}
+\nocite{*}
+\bibliography{references}
+
+\end{document}
